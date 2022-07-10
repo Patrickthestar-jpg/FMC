@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  font-family: "Poppins";
+}
+.row{
+  margin-top: 35px;
+}
+
+h5{
+  font-weight: bold;
+  text-align: center !important;
+}
+
+.FMC{
+  font-size:35px;
+  font-weight: bolder;
+  color: #e4e000;
+  text-align: center;
+  margin-top: 15px;
+  text-shadow: 2px 2px black;
+}
+
+.wd{
+  font-size:40px;
+  font-weight: bolder;
+  color: #e4e000;
+  text-align: center;
+  margin-top: 15px;
+  text-shadow: 2px 2px black;
+}
+
+.modal-content{
+    background: white;
+    color: #000000;
+}
+
+.modal-title{
+  text-align: center !important;
+  color: rgb(0, 0, 0);
+}
+
+
+
+.card{
+    border: none;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    overflow:hidden;
+    border-radius:20px;
+    min-height:450px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.wrapper
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
