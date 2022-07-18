@@ -40,9 +40,33 @@
                 @if ($confirm->isCustomize == 1)
                 <button class="btn-success">
                     &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
                 </button>
                 @else
                 <button class="btn-danger">
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
                     &nbsp;
                     &nbsp;
                     &nbsp;

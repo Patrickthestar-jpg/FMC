@@ -59,29 +59,30 @@
                             <th>MESSAGE</th>
                             <td>{{$confirm->message}}</td>
                         </tr>
+                        <hr>
                         @foreach ($confirm->menus as $menu)
                         <tr>
-                            <th>pork</th>
+                            <th>PORK</th>
                             <td>{{ $menu->pork }}</td>
                         </tr>
                         <tr>
-                            <th>chiken</th>
+                            <th>CHICKEN</th>
                             <td>{{ $menu->chiken }}</td>
                         </tr>
                         <tr>
-                            <th>vegitable</th>
+                            <th>VEGETABLE</th>
                             <td>{{ $menu->vegitable }}</td>
                         </tr>
                         <tr>
-                            <th>beef</th>
+                            <th>BEEF</th>
                             <td>{{ $menu->beef }}</td>
                         </tr>
                         <tr>
-                            <th>sea_food</th>
+                            <th>SEA FOODS</th>
                             <td>{{ $menu->sea_food }}</td>
                         </tr>
                         <tr>
-                            <th>diserts</th>
+                            <th>DESSERT</th>
                             <td>{{ $menu->diserts }}</td>
                         </tr>
                     @endforeach

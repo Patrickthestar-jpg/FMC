@@ -13,7 +13,7 @@
         <img src="{{ URL::asset('img/fmclogo1.png') }}" style="width: 50px;" class="d-inline-block align-top"
             alt="FMC">
         <h6 style="float: left; margin-top:20px; margin-left:3px; font-weight:bolder; color:rgb(255, 255, 255);">FMC
-            Catering services</h6>
+            Catering Services</h6>
         <a href="/contact">Contact</a>
         <a href="/about">About</a>
         <div class="dropdown1">
@@ -22,7 +22,7 @@
             </button>
             <div class="dropdown1-content">
                 <p class="cat" style="padding:10px; color:black; font-weight:bolder;">CATERING SERVICES</p>
-                <a href="/wed">Wedding and Debut</a>
+                <a class="wedd" style="color: black;" href="/wed">Wedding and Debut</a>
                 <!--<a href="#">Corporate</a>
             <a href="#">Kid's Party</a>
             <a href="#">Private Party</a>-->

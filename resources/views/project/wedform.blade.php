@@ -16,36 +16,36 @@
                 <form action="{{ route('layout.reservation.store') }}" method="post">
                     @csrf
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Full Name: (Required)</label>
+                        <label for="exampleInputEmail1">Full Name: *</label>
                         <input type="text" class="form-control" name="full_name" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Firstname Middlename Lastname" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Contact Number: (Required)</label>
+                        <label for="exampleInputEmail1">Contact Number: *</label>
                         <input type="text" class="form-control" name="contact" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="09XXXXXXXXX" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email Address: (Required)</label>
+                        <label for="exampleInputEmail1">Email Address: *</label>
                         <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Here" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Type of Event: (Required)</label>
+                        <label for="exampleInputEmail1">Type of Event: *</label>
                         <input type="text" class="form-control" name="event_type" value="Wedding/Debut" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Wedding" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Package: (Required)</label>
+                        <label for="exampleInputEmail1">Package: *</label>
                         <input type="number" class="form-control" name="package" value="1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="1" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Event Date: (Required)</label>
+                        <label for="exampleInputEmail1">Event Date: *</label>
                         <input type="date" class="form-control" name="event_date" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="January 01, 2021" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Number of Persons: (Required)</label>
+                        <label for="exampleInputEmail1">Number of Persons: *</label>
                         <input type="number" class="form-control" name="persons" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="123" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Additional Message: (Required)</label>
+                        <label for="exampleInputEmail1">Additional Message: *</label>
                         <input type="text" class="form-control" name="message" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Message Here" required>
                     </div>
                     <p><a href="/agreement">FMC Agreement</a></p>
