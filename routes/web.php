@@ -13,6 +13,8 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\FullCalenderController;
 use App\Http\Controllers\PackageController;
+use Illuminate\Support\Facades\URL;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -77,7 +79,15 @@ Route::post('/pending/store', 'ReservationController@store')->name('layout.reser
 
 //paymentform
 
-Route::get('paymentform','PaymentFormController@paymentform')->name('layout.paymentform.paymentform');
+Route::get('paymentform', function(Request $request){
+    if (! $request->hasValidSignature()) {
+        abort(401);}
+
+    else{
+        return view('layout.paymentform.paymentform');
+    }
+})->name('paymentform');
+Route::get('pwelcome','PaymentFormController@paymentform')->name('pwelcome');
 Route::get('pform','PaymentFormController@pform')->name('layout.paymentform.pform');
 Route::get('thankyou','PaymentFormController@thank')->name('layout.paymentform.thank');
 Route::post('payment/store','PaymentFormController@store')->name('layout.paymentform.store');

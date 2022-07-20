@@ -6,7 +6,8 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\URL;
 
 
 class WelcomeMail extends Mailable
@@ -33,8 +34,11 @@ class WelcomeMail extends Mailable
      */
     public function build()
     {
+        $link=URL::temporarySignedRoute(
+            'paymentform', now()->addMinutes(60));
+
         return $this->from('cateringservicesfmc@gmail.com')
-            ->markdown('emails.welcome');
+            ->markdown('emails.welcome')->with('link',$link);
 
     }
 
