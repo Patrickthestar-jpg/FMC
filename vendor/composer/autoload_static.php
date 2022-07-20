@@ -526,6 +526,7 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\ConPaymentController' => __DIR__ . '/../..' . '/app/Http/Controllers/ConPaymentController.php',
         'App\\Http\\Controllers\\ConfirmedController' => __DIR__ . '/../..' . '/app/Http/Controllers/ConfirmedController.php',
+        'App\\Http\\Controllers\\ContactUsController' => __DIR__ . '/../..' . '/app/Http/Controllers/ContactUsController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\CustomAuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/CustomAuthController.php',
         'App\\Http\\Controllers\\DashboardController' => __DIR__ . '/../..' . '/app/Http/Controllers/DashboardController.php',

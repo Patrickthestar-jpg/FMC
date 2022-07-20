@@ -23,6 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('FMC Catering Services');
+        return view('home');
     }
 }

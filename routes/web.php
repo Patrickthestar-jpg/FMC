@@ -15,6 +15,7 @@ use App\Http\Controllers\FullCalenderController;
 use App\Http\Controllers\PackageController;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -84,7 +85,7 @@ Route::get('paymentform', function(Request $request){
         abort(401);}
 
     else{
-        return view('layout.paymentform.paymentform');
+        return view('layout.paymentform.pform');
     }
 })->name('paymentform');
 Route::get('pwelcome','PaymentFormController@paymentform')->name('pwelcome');
@@ -101,12 +102,11 @@ Route::post('/customize/package/store', [PackageController::class,'store'])->nam
 
 
 //login
-Route::get('/login', [CustomAuthController::class, 'login'])->name('loginform');
-Route::get('/registration', [CustomAuthController::class, 'registration']);
-Route::post('/register-user', [CustomAuthController::class, 'registeruser'])->name('register-user');
-Route::post('login-user', [CustomAuthController::class, 'loginuser'])->name('login-user');
-Route::post('/login/user', [LoginController::class,'authenticate'])->name('login');
-Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
+Auth::routes();
+//Route::get('/registration', [CustomAuthController::class, 'registration']);
+//Route::post('/register-user', [CustomAuthController::class, 'registeruser'])->name('register-user');
+//Route::post('login-user', [CustomAuthController::class, 'loginuser'])->name('login-user');
+//Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -118,3 +118,7 @@ Route::get('/send/email/{id}', 'sendMail@mail');
 Route::get('/events', [EventController::class, 'index'])->name('events.index');
 Route::post('/events/add', [EventController::class, 'store'])->name('events.store');
 Route::put('/events/edit/{id}', [EventController::class, 'update'])->name('events.update');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

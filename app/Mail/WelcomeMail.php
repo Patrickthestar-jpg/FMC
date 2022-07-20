@@ -35,7 +35,7 @@ class WelcomeMail extends Mailable
     public function build()
     {
         $link=URL::temporarySignedRoute(
-            'paymentform', now()->addMinutes(60));
+            'paymentform', now()->addMinutes(1));
 
         return $this->from('cateringservicesfmc@gmail.com')
             ->markdown('emails.welcome')->with('link',$link);

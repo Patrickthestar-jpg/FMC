@@ -3,11 +3,10 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Models\User;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Models\User;
 
 class LoginController extends Controller
 {
@@ -29,6 +28,7 @@ class LoginController extends Controller
      *
      * @var string
      */
+    protected $redirectTo = RouteServiceProvider::HOME;
 
     /**
      * Create a new controller instance.
@@ -40,31 +40,12 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
-    public function authenticate(Request $request)
+    protected function _registerOrLoginUser($data)
     {
-        $credentials = $request->validate([
-            'email' => ['required', 'email'],
-            'password' => ['required'],
-        ]);
+        $user = User::where('email', '=', $data->email)->first();
 
-        if (Auth::attempt($credentials)) {
-            // Authentication passed...
-            if (Auth::attempt(['email' => request()->email, 'password' => request()->password])){
-                $request->session()->regenerate();
-                return redirect()->route('/dashboard');
-            }
-        }
-        return back();
+        Auth::login($user);
     }
 
-    public function logout(Request $request)
-    {
 
-
-            $request->session()->invalidate();
-            $request->session()->regenerateToken();
-            Auth::logout();
-            return redirect()->route('loginform');
-
-    }
 }
