@@ -8,6 +8,11 @@ use App\Models\Confirmed as ModelsConfirmed;
 
 class DashboardController extends Controller
 {
+
+     public function __construct()
+     {
+         $this->middleware('auth');
+    }
     public function index()
     {
         $confirmed_reservations = ModelsConfirmed::count();

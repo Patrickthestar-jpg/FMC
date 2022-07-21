@@ -76,6 +76,13 @@
 
             <hr class="sidebar-divider d-none d-md-block">
 
+            <li class=" nav-item ">
+                <a class="nav-link" href="{{route('admin-gallery')}}">
+                <i class="fas fa-calendar-alt"></i>
+                    <span>Gallery</span></a>
+            </li>
+            <hr class="sidebar-divider my-0">
+
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>

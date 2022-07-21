@@ -13,9 +13,10 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\FullCalenderController;
 use App\Http\Controllers\PackageController;
-use Illuminate\Support\Facades\URL;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Models\Reservation;
+use App\Models\FinishModel;
 
 /*
 |--------------------------------------------------------------------------
@@ -72,7 +73,23 @@ Route::PUT('/refused/{id}', 'ReservationController@refused')->name('layout.refus
 Route::PUT('/refused/{id}/restore', 'ReservationController@restore')->name('layout.restore.restore');
 
 //dashboard
-Route::get('/dashboard', 'DashboardController@index')->name('layout.dashboard.index');
+Route::get('/dashboard', function () {
+    if (Auth::check()) {
+
+        $confirmed_reservations = Reservation::where('isConfirm', '=', 1)->get();
+        $concount = $confirmed_reservations->count();
+
+        $confirmed_reservations1 = FinishModel::where('id', '>', 0)->get();
+        $concount1 = $confirmed_reservations1->count();
+
+        return view('layout.dashboard.index')->with('concount',$concount )->with('concount1',$concount1);
+     }
+
+     else{
+        return view('auth.login');
+     }
+
+})->name('layout.dashboard.index');
 
 //reservations
 Route::PUT('/pending/{id}', 'ReservationController@update')->name('layout.reservation.update');
@@ -102,11 +119,16 @@ Route::post('/customize/package/store', [PackageController::class,'store'])->nam
 
 
 //login
-Auth::routes();
+//Auth::routes();
+//Route::post('login', [ 'as' => 'login', 'uses' => 'LoginController@login'])->name('login');
 //Route::get('/registration', [CustomAuthController::class, 'registration']);
 //Route::post('/register-user', [CustomAuthController::class, 'registeruser'])->name('register-user');
 //Route::post('login-user', [CustomAuthController::class, 'loginuser'])->name('login-user');
-//Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
+//Route::post('logout', [ 'as' => 'logout', 'uses' => 'LoginController@logout'])->name('logout');
+
+//Gallery
+Route::get('/admin-gallery', 'GalleryController@index')->name('admin-gallery');
+Route::post('/upload-file', 'GalleryController@store')->name('fileUpload');
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -118,6 +140,10 @@ Route::get('/send/email/{id}', 'sendMail@mail');
 Route::get('/events', [EventController::class, 'index'])->name('events.index');
 Route::post('/events/add', [EventController::class, 'store'])->name('events.store');
 Route::put('/events/edit/{id}', [EventController::class, 'update'])->name('events.update');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Auth::routes();
 
