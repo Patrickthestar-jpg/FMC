@@ -36,7 +36,7 @@ Route::get('about','ProjectController@about');
 
 Route::get('contact','ProjectController@contact');
 
-Route::get('gallery','ProjectController@gallery');
+//Route::get('gallery','ProjectController@gallery');
 
 Route::get('wed','ProjectController@wed');
 
@@ -128,7 +128,9 @@ Route::post('/customize/package/store', [PackageController::class,'store'])->nam
 
 //Gallery
 Route::get('/admin-gallery', 'GalleryController@index')->name('admin-gallery');
+Route::get('/gallery', 'GalleryController@display')->name('user-gallery');
 Route::post('/upload-file', 'GalleryController@store')->name('fileUpload');
+Route::get('/picture/delete/{id}', 'GalleryController@destroy')->name('picture.destroy');
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

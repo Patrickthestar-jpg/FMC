@@ -7,6 +7,17 @@
 @section('contents')
     <h1 class="h3 mb-4 text-gray-800">Gallery Pictures</h1>
 
+    @if (session('message'))
+
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        {{session('message')}}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+    @endif
+
     <div class="row">
         <div class="col-9">
 
@@ -23,6 +34,7 @@
                         <tr>
                             <th scope="col">ID</th>
                             <th scope="col">Picture</th>
+                            <th scope="col">Caption</th>
                             <th class="text-center" scope="col">Action</th>
                         </tr>
                     </thead>
@@ -30,11 +42,12 @@
                         @foreach ($gallery as $item)
                             <tr>
                                 <td>{{$item->id}}</td>
-                                <td><img src="{{$item->picture}}" alt="picture"></td>
+                                <td><img src="{{$item->picture}}" alt="picture" style="width:100px;"></td>
+                                <td>{{$item->caption}}</td>
                                 <td class="text-center">
-                                    {{-- <a class="btn btn-sm btn-outline-info" data-toggle="modal"
-                                        data-target="#view{{}}">View Full Details</a>
-                                    @include('layout.reservation.conpaymentmodal') --}}
+                                    <a class="btn btn-sm btn-outline-info"
+                                    data-toggle="modal" data-target="#delete{{ $item->id }}">Delete</a>
+                                    @include('gallery.modal2')
                                 </td>
                             </tr>
                         @endforeach

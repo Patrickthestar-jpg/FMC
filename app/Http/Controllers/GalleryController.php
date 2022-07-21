@@ -18,6 +18,12 @@ class GalleryController extends Controller
         return view('gallery.admingallery')->with('gallery', $gallery);
     }
 
+    public function display()
+    {
+        $gallery = Gallery::all();
+        return view('project.gallery')->with('gallery', $gallery);
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -36,22 +42,19 @@ class GalleryController extends Controller
      */
     public function store(Request $request)
     {
-            $validatedData = $request->validate([
-            'file' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048',
-
-           ]);
-
-        //    $name = $request->file('image')->getClientOriginalName();
-
-           $path = $request->file('file')->store('public/images');
+            $file_extention = $request->file('file')->getClientOriginalExtension();
+            $file_name = time().rand(99,999).'file.'.$file_extention;
+            $path = $request->file('file')->move('users\image',$file_name);
 
 
            $save = new Gallery;
 
         //    $save->name = $name;
            $save->picture = $path;
+           $save->caption = $request->input('caption');
 
            $save->save();
+
 
            return redirect('admin-gallery')->with('status', 'Image Has been uploaded');
 
@@ -99,6 +102,9 @@ class GalleryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $gallery = Gallery::find($id);
+        $gallery->delete();
+        return redirect('admin-gallery')->with('message', 'Image Has been deleted');
+
     }
 }

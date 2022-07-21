@@ -92,16 +92,20 @@
 
 
         <div class="row">
-            <div class="col-md-4 col-sm-6">
-              <div class="thumbnail">
-                  <img src="img/1.jpg" style="width:100%">
-                  <div class="caption">
-                    <p style="text-align:center; color:white; wieght:bold;">Wedding at Home in Baguio</p>
-                  </div>
-              </div>
-            </div>
+            @foreach ( $gallery as $item)
 
-            <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="{{$item->picture}}" style="width:100%">
+                        <div class="caption">
+                            <p style="text-align:center; color:white; wieght:bold;">{{$item->caption}}</p>
+                        </div>
+                    </div>
+                </div>
+
+            @endforeach
+
+            {{-- <div class="col-md-4">
               <div class="thumbnail">
                   <img src="img/2.jpg" style="width:100%">
                   <div class="caption">
@@ -117,11 +121,11 @@
                     <p style="text-align:center; color:white; wieght:bold;">Wedding at Home in Baguio</p>
                   </div>
               </div>
-            </div>
-          </div>
+            </div> --}}
+        </div>
 
 
-          <div class="row">
+          {{-- <div class="row">
             <div class="col-md-4 col-sm-6">
               <div class="thumbnail">
                   <img src="img/4.jpg" style="width:100%">
@@ -178,7 +182,7 @@
                   </div>
               </div>
             </div>
-          </div>
+          </div> --}}
 
 
 
