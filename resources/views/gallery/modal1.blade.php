@@ -35,9 +35,9 @@
                             <label class="custom-file-label" for="chooseFile">Upload a Photo</label>
                         </div>
                         <br> <br>
-                        <div>
-                            <input type="text" name="caption" id="caption">
-                            <label  for="caption">Insert Photo Caption</label>
+                        <div class="input-group">
+                            <label>Caption</label>
+                            <input class="form-control" type="text" name="caption" >
                         </div>
                         <button type="submit" name="submit" class="btn btn-primary btn-block mt-4">
                             Upload

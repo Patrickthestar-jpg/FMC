@@ -14,7 +14,7 @@
             alt="FMC">
         <h6 style="float: left; margin-top:20px; margin-left:3px; font-weight:bolder; color:rgb(255, 255, 255);">FMC
             Catering Services</h6>
-        <a href="/contact">Contact</a>
+        <a href="/contacts">Contact</a>
         <a href="/about">About</a>
         <div class="dropdown1">
             <button class="dropbtn">Services

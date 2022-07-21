@@ -36,21 +36,21 @@
                 <div class="col-md-4 mid">
                     <div>
                         <h4 style="text-align: center !important;">Socials</h4>
-                        <h5 style="text-align: center !important;">FB: FMC Catering Services</h5>
+                        <h5 style="text-align: center !important;">{{$contact->socmed}}</h5>
                     </div>
                 </div>
 
                 <div class="col-md-4 mid">
                     <div>
                         <h4 style="text-align: center !important;">Address</h4>
-                        <h5 style="text-align: center !important;">Cpams Balayhangin, Calauan Laguna FMC Catering and resort</h5>
+                        <h5 style="text-align: center !important;">{{$contact->address}}</h5>
                     </div>
                 </div>
 
                 <div class="col-md-4 mid">
                     <div>
                         <h4 style="text-align: center !important;">Contact</h4>
-                        <h5 style="text-align: center !important;">Ferdinand M. Carandang <br>0905 368 1574
+                        <h5 style="text-align: center !important;">{{$contact->name}}<br>{{$contact->contact_no}}
                             <img data-toggle="modal" data-target="#modal3" class="img" src="img/mess.png" alt="Message Us"></h5>
                     </div>
                 </div>

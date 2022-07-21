@@ -34,7 +34,6 @@ Route::get('/','ProjectController@index')->name('home.index');
 
 Route::get('about','ProjectController@about');
 
-Route::get('contact','ProjectController@contact');
 
 //Route::get('gallery','ProjectController@gallery');
 
@@ -131,6 +130,11 @@ Route::get('/admin-gallery', 'GalleryController@index')->name('admin-gallery');
 Route::get('/gallery', 'GalleryController@display')->name('user-gallery');
 Route::post('/upload-file', 'GalleryController@store')->name('fileUpload');
 Route::get('/picture/delete/{id}', 'GalleryController@destroy')->name('picture.destroy');
+
+//Contacts
+Route::get('/admin-contacts', 'ContactController@index')->name('admin-contact');
+Route::get('/contacts', 'ContactController@display')->name('user-contact');
+Route::match(['put', 'patch'], '/contact/update{id}','ContactController@update')->name('update-contact');
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

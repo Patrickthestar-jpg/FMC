@@ -83,6 +83,13 @@
             </li>
             <hr class="sidebar-divider my-0">
 
+            <li class=" nav-item ">
+                <a class="nav-link" href="{{route('admin-contact')}}">
+                <i class="fas fa-calendar-alt"></i>
+                    <span>Contact Details</span></a>
+            </li>
+            <hr class="sidebar-divider my-0">
+
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
