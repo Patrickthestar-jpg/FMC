@@ -8,13 +8,23 @@ use App\Models\PaymentForm;
 use App\Models\TemporaryModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 
 class ConPaymentController extends Controller
 {
     public function index()
     {
-        $payments = ConPayment::all();
-        return view('layout.payment.confirmedpayment', compact('payments'));
+        if (Auth::check()) {
+
+            $payments = ConPayment::all();
+            return view('layout.payment.confirmedpayment', compact('payments'));
+
+         }
+       
+        else{
+            return view('auth.login');
+        } 
+    
     }
 
     public function store(Request $request)

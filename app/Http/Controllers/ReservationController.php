@@ -8,13 +8,23 @@ use Illuminate\Http\Request;
 use App\Models\Reservation;
 use App\Models\TemporaryModel;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Auth;
 
 class ReservationController extends Controller
 {
     public function index()
     {
-        $reservations = Reservation::where('isConfirm', '=', 0)->get();
-        return view('layout.reservation.pending', compact('reservations'));
+        if (Auth::check()) {
+
+            $reservations = Reservation::where('isConfirm', '=', 0)->get();
+            return view('layout.reservation.pending', compact('reservations'));
+
+         }
+       
+        else{
+            return view('auth.login');
+        } 
+        
     }
 
     public function update($id)

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\PaymentForm;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Auth;
 
 class MasterLayoutController extends Controller
 {
@@ -35,8 +36,17 @@ class MasterLayoutController extends Controller
 
     public function pendingpayment()
     {
-        $payments = PaymentForm::all();
-        return view('layout.payment.pendingpayment', compact('payments'));
+        if (Auth::check()) {
+
+            $payments = PaymentForm::all();
+            return view('layout.payment.pendingpayment', compact('payments'));
+
+         }
+       
+        else{
+            return view('auth.login');
+        } 
+    
     }
 
     public function confirmedpayment()

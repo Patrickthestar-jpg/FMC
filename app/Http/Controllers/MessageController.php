@@ -4,13 +4,22 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\MessageModel;
+use Illuminate\Support\Facades\Auth;
 
 class MessageController extends Controller
 {
     public function index()
     {
-        $messages = MessageModel::all();
-        return view('layout.message.message', compact('messages'));
+        if (Auth::check()) {
+
+            $messages = MessageModel::all();
+            return view('layout.message.message', compact('messages'));
+
+         }
+       
+        else{
+            return view('auth.login');
+        } 
     }
 
 

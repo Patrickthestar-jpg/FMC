@@ -118,7 +118,7 @@ Route::post('/customize/package/store', [PackageController::class,'store'])->nam
 
 
 //login
-//Auth::routes();
+Auth::routes();
 //Route::post('login', [ 'as' => 'login', 'uses' => 'LoginController@login'])->name('login');
 //Route::get('/registration', [CustomAuthController::class, 'registration']);
 //Route::post('/register-user', [CustomAuthController::class, 'registeruser'])->name('register-user');
@@ -147,10 +147,9 @@ Route::get('/events', [EventController::class, 'index'])->name('events.index');
 Route::post('/events/add', [EventController::class, 'store'])->name('events.store');
 Route::put('/events/edit/{id}', [EventController::class, 'update'])->name('events.update');
 
-Auth::routes();
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

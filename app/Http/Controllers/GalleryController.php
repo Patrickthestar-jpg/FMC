@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Gallery;
+use Illuminate\Support\Facades\Auth;
 
 class GalleryController extends Controller
 {
@@ -12,10 +13,20 @@ class GalleryController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
     public function index()
     {
-        $gallery = Gallery::all();
-        return view('gallery.admingallery')->with('gallery', $gallery);
+        if (Auth::check()) {
+
+            $gallery = Gallery::all();
+            return view('gallery.admingallery')->with('gallery', $gallery);
+
+         }
+       
+        else{
+            return view('auth.login');
+        } 
+        
     }
 
     public function display()

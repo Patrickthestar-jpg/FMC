@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Contact;
+use Illuminate\Support\Facades\Auth;
 
 class ContactController extends Controller
 {
@@ -14,8 +15,16 @@ class ContactController extends Controller
      */
     public function index()
     {
-        $contact = Contact::first();
-        return view('contact.contact')->with('contact', $contact);
+        if (Auth::check()) {
+
+            $contact = Contact::first();
+            return view('contact.contact')->with('contact', $contact);
+
+         }
+       
+        else{
+            return view('auth.login');
+        } 
     }
 
     public function display()

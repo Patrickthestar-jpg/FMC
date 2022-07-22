@@ -5,13 +5,22 @@ namespace App\Http\Controllers;
 use App\Models\FinishModel;
 use Illuminate\Http\Request;
 use App\Models\OngoingModel;
+use Illuminate\Support\Facades\Auth;
 
 class FinishController extends Controller
 {
     public function index()
     {
-        $ongoings = FinishModel::all();
-        return view('layout.reservation.finished', compact('ongoings'));
+        if (Auth::check()) {
+
+            $ongoings = FinishModel::all();
+            return view('layout.reservation.finished', compact('ongoings'));
+
+         }
+       
+        else{
+            return view('auth.login');
+        } 
     }
 
     public function store(Request $request)

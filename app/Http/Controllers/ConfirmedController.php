@@ -6,14 +6,22 @@ use Illuminate\Http\Request;
 use App\Models\Confirmed;
 use App\Models\Reservation;
 use App\Models\TemporaryModel;
+use Illuminate\Support\Facades\Auth;
 
 class ConfirmedController extends Controller
 {
     public function index()
     {
-        $reservations = Reservation::where('isConfirm', '=', 1)->get();
+        if (Auth::check()) {
 
-        return view('layout.reservation.confirmed', compact('reservations'));
+            $reservations = Reservation::where('isConfirm', '=', 1)->get();
+            return view('layout.reservation.confirmed', compact('reservations'));
+
+         }
+       
+        else{
+            return view('auth.login');
+        } 
     }
 
     public function store(Request $request)

@@ -5,13 +5,22 @@ namespace App\Http\Controllers;
 use App\Models\ConPayment;
 use Illuminate\Http\Request;
 use App\Models\OngoingModel;
+use Illuminate\Support\Facades\Auth;
 
 class OngoingController extends Controller
 {
     public function index()
     {
-        $payments = OngoingModel::all();
-        return view('layout.reservation.ongoing', compact('payments'));
+        if (Auth::check()) {
+
+            $payments = OngoingModel::all();
+            return view('layout.reservation.ongoing', compact('payments'));
+
+         }
+       
+        else{
+            return view('auth.login');
+        } 
     }
 
     public function store(Request $request)
