@@ -30,6 +30,7 @@ class ReservationController extends Controller
             'email'=>$request->email,
             'event_type'=>$request->event_type,
             'event_date'=>$request->event_date,
+            'package'=>$request->package,
             'persons'=>$request->persons,
             'message'=>$request->message,
         ])->id;
