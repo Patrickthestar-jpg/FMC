@@ -22,13 +22,6 @@
             </div>
         </div>
 
-        <!-- Script to use required property -->
-        {{-- <script>
-            function myGeeks() {
-                var g = document.getElementById("exampleCheck1").required;
-            }
-        </script> --}}
-
     </body>
 @endsection
 
