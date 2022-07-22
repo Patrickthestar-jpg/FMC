@@ -1,11 +1,17 @@
 @extends('layout.master_layout')
 
+
+
 @section('page_level_css')
     <link href="{{ asset('vendor/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
+  
 @endsection
 
+
+
+
 @section('contents')
-    <h1 class="h3 mb-4 text-gray-800">Gallery Pictures</h1>
+    
 
     @if (session('message'))
 
@@ -19,12 +25,14 @@
     @endif
 
     <div class="row">
-        <div class="col-9">
-
+        <div class="col-md-9">
+            <h1 class="h3 mb-4 text-gray-800">Gallery Pictures</h1>
         </div>
-        <div class="col-3">
-            <a class="btn btn-sm btn-outline-info" data-toggle="modal"
-            data-target="#add_pic">Upload New Photo</a>
+        
+        <div class="col-md-2 offset-1 justify-content-end d-flex flex-column pb-4 ">
+            <a class="btn btn-sm btn-outline-primary " data-toggle="modal"
+            data-target="#add_pic" style="color: #007bff;" onMouseOver="this.style.color='white'"
+             onMouseOut="this.style.color='#007bff'" >Upload New Photo</a>
         </div>
         <br>  <br>  <br>  <br>
         <div class="col-12">
@@ -45,7 +53,8 @@
                                 <td><img src="{{$item->picture}}" alt="picture" style="width:100px;"></td>
                                 <td>{{$item->caption}}</td>
                                 <td class="text-center">
-                                    <a class="btn btn-sm btn-outline-info"
+                                    <a class="btn btn-sm btn-outline-danger" style="color: #dc3545;" onMouseOver="this.style.color='white'"
+                                        onMouseOut="this.style.color='#dc3545'" 
                                     data-toggle="modal" data-target="#delete{{ $item->id }}">Delete</a>
                                     @include('gallery.modal2')
                                 </td>
