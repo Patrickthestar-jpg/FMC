@@ -45,7 +45,7 @@ class ReservationController extends Controller
             'message'=>$request->message,
         ])->id;
 
-        return back();
+        return view('project.waiting');
     }
     public function refused($id)
     {
