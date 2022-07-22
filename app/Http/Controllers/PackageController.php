@@ -56,7 +56,7 @@ class PackageController extends Controller
             'sea_food'=>$request->sea_food,
             'diserts'=>$request->diserts,
         ]);
-        return back();
+        return view('project.waiting');
     }
 
     /**
