@@ -5,9 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class MessageModel extends Model
+class Message extends Model
 {
-    protected $table = 'message';
-    public $timestamps = false;
+    protected $table = 'messages';
     public $guarded =[];
+
+    protected $fillable = [
+
+        'message',
+        'reply',
+    ];
 }

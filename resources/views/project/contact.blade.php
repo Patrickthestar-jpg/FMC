@@ -9,11 +9,11 @@
 <html>
     <head>
         <title>Contacts</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css">
+        {{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> --}}
+        {{-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css"> --}}
         <link rel="stylesheet" href="{{ URL::asset('project/css/footer.css') }}">
 
-    <body style="background-image:url('project/img/red.jpg'); background-repeat: no-repeat; background-size: cover;">
+    <body style="background-image:url('project/img/red.jpg'); background-repeat: no-repeat; background-size: cover">
 
         <div class="row">
             <div class="col-md-12 mid">
@@ -48,13 +48,13 @@
                     </div>
                 </div>
 
-                {{-- <div class="col-md-4 mid">
+                <div class="col-md-4 mid">
                     <div>
                         <h4 style="text-align: center !important;">Contact</h4>
                         <h5 style="text-align: center !important;">{{$contact->name}}<br>{{$contact->contact_no}}
-                            <img data-toggle="modal" data-target="#modal3" class="img" src="img/mess.png" alt="Message Us"></h5>
+                            {{-- <img data-toggle="modal" data-target="#modal3" class="img" src="img/mess.png" alt="Message Us"></h5> --}}
                     </div>
-                </div> --}}
+                </div>
             </div>
         </div>
 
@@ -100,11 +100,15 @@
         <script>
             var botmanWidget = {
             aboutText: 'Write Something',
-            introMessage: "✋ Hi! I'm form Online Web Tutor"
+            introMessage: "✋ Hi! Welcome to FMC catering services",
+            title:"FMC Helper",
+            mainColor:"#e4e000",
+            bubbleBackground:"#b9100a"
+
             };
           </script>
           
-          <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
+          <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script> 
     </body>
 
 </html>

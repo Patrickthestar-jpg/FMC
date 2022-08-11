@@ -22,7 +22,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class=" nav-item ">
-                <a class="nav-link" href="{{route('layout.message.message')}}">
+                <a class="nav-link" href="{{route('autorep')}}">
                 <i class="fas fa-envelope"></i>
                     <span>Messages</span></a>
             </li>
