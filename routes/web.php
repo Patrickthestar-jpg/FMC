@@ -147,6 +147,8 @@ Route::get('/events', [EventController::class, 'index'])->name('events.index');
 Route::post('/events/add', [EventController::class, 'store'])->name('events.store');
 Route::put('/events/edit/{id}', [EventController::class, 'update'])->name('events.update');
 
+//botman
+Route::match(['get', 'post'], '/botman', [BotmanController::class, 'handle']);
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
