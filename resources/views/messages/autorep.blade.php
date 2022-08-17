@@ -4,7 +4,7 @@
 
 @section('page_level_css')
     <link href="{{ asset('vendor/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
-  
+   
 @endsection
 
 
@@ -43,7 +43,7 @@
                             <th scope="col">ID</th>
                             <th scope="col">Message</th>
                             <th scope="col">Reply</th>
-                            <th class="text-center" scope="col">Action</th>
+                            <th class="text-center" scope="col" colspan="2">Action</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -53,18 +53,35 @@
                                 <td>{{$item->message}}</td>
                                 <td>{{$item->reply}}</td>
                                <td class="text-center">
-                                    <a class="btn btn-sm btn-outline-danger" style="color: #dc3545;" onMouseOver="this.style.color='white'"
+                                    <a class="btn btn-sm btn-outline-danger" style="color: #dc3545; width:80px;" onMouseOver="this.style.color='white'"
                                         onMouseOut="this.style.color='#dc3545'" 
                                     data-toggle="modal" data-target="#delete{{ $item->id }}">Delete</a>
+
                                     @include('messages.modal2')
+                                    
                                 </td>
+                                <td class="text-center">
+                                    
+
+                                    <a class="btn btn-sm btn-outline-primary " style="color: #4e73df; width:80px;" onMouseOver="this.style.color='white'"
+                                        onMouseOut="this.style.color='#4e73df'" 
+                                    data-toggle="modal" data-target="#edit">Edit</a>
+
+
+                                    @include('messages.modal3')
+                                    
+                                </td>
+                                
                             </tr>
                         @endforeach
                     </tbody>
                 </table>
+
         </div>
     </div>
     @include('messages.modal1')
+    
+    
 @endsection
 
 @section('page_level_scripts')

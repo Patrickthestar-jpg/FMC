@@ -4,7 +4,7 @@
     aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content ">
-            <div class="modal-header bg-danger">
+            <div class="modal-header mdlte">
                 <h3 class="modal-title text-light font-weight-bold" id="exampleModalLabel">Delete</h3>
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
@@ -16,7 +16,7 @@
                 <div class="container mt-5">
                     <form action="{{route('autorep.destroy', $item->id)}}" method="get">
                         @csrf
-                            <h3>Are you sure you want to delete?</h3>
+                            <h3 class="text-dark">Are you sure you want to delete?</h3>
                         <div class="modal-footer">
                             <button class="btn btn-danger" type="submit">Delete</button>
                         </div>
@@ -27,3 +27,4 @@
         </div>
     </div>
 </div>
+

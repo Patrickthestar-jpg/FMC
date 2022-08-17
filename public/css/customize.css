@@ -1,38 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
-*{
-    font-family: "Poppins";
-
-  }
-
-.fbg{
+.cardred{
+  
     border-radius: 10px;
-    /* background-color: blanchedalmond !important; */
+    overflow: hidden;
+    /* padding: 55px 55px 37px 55px; */
+  
     background: #95241E;
     background: -webkit-linear-gradient(top, #d8084d, #95241E);
     background: -o-linear-gradient(top, #d8084d, #95241E);
     background: -moz-linear-gradient(top, #d8084d, #95241E);
     background: linear-gradient(top, #d8084d, #95241E);
-    /* margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 280px; */
-    padding:50px 20px 80px 20px;
 }
 
-.fbtn{
-    float:right;
-    margin:10px;
-    
-}
-.btn-outline-info{
-    border: #FFE600 1px solid;
-    color: #FFE600;
-}
-.btn-outline-info:hover{
-    background-color: #FFE600;
-    border: #FFE600 1px solid;
-}
-
+/* Button */
 [ Button ]*/
 .container-login100-form-btn {
   width: 100%;

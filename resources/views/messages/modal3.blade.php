@@ -1,10 +1,11 @@
-
-
-<div class="modal fade bd-example-modal-lg" id="add_rep" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<head>
+    <link rel="stylesheet" href="/css/modal1.css">
+</head>
+<div class="modal fade bd-example-modal-lg" id="edit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content ">
             <div class="modal-header ">
-                <h3 class="modal-title c font-weight-bold text-white" id="exampleModalLabel">Add New Auto Reply</h3>
+                <h3 class="modal-title text-white font-weight-bold" id="exampleModalLabel">Edit Auto Reply</h3>
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
@@ -47,13 +48,17 @@
                             </div>
 
                         </div>
+
                         <div class="modal-footer mt-4">
                             <button type="submit" name="submit" class="btn btn-primary btn-lg mt-4 justify-self-end ">
                                 Save
                             </button>
                         </div>
+
+
                     </form>
                 </div>
+
 
 
             </div>
