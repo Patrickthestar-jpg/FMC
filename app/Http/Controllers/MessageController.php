@@ -36,6 +36,17 @@ class MessageController extends Controller
            return redirect()->route('autorep')->with('status', 'Autoreply has been added');
     }
 
+    public function update(Request $request, $id)
+    {
+        $message = Message::find($id);
+        $message->message = $request->input('message');
+        $message->reply = $request->input('reply');
+
+        $message->save();
+        return redirect()->route('autorep')->with('message', 'Autoreply has been updated');
+
+    }
+
     public function destroy($id)
     {
         $message = Message::find($id);

@@ -65,7 +65,7 @@
 
                                     <a class="btn btn-sm btn-outline-primary " style="color: #4e73df; width:80px;" onMouseOver="this.style.color='white'"
                                         onMouseOut="this.style.color='#4e73df'" 
-                                    data-toggle="modal" data-target="#edit">Edit</a>
+                                    data-toggle="modal" data-target="#edit{{ $item->id }}">Edit</a>
 
 
                                     @include('messages.modal3')

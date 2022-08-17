@@ -247,13 +247,13 @@ Gallery
       <!-- IMAGES gallery -->
       <div class="container">
         <div class="row">
-          @foreach ( $gallery as $item)
+          @foreach ( $food as $f)
 
           <div class="col-md-4 col-sm-6">
             <div class="thumbnail">
-              <img src="{{$item->picture}}" style="width:100%">
+              <img src="{{$f->picture}}" style="width:100%">
               <div class="caption">
-                <p style="text-align:center;  wieght:bold;">{{$item->caption}}</p>
+                <p style="text-align:center;  wieght:bold;">{{$f->caption}}</p>
               </div>
             </div>
           </div>

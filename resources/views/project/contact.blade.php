@@ -191,7 +191,7 @@ Contact
     <script>
         var botmanWidget = {
             aboutText: 'Write Something',
-            introMessage: "✋ Hi! Welcome to FMC catering services",
+            introMessage: "✋ Hello! Welcome to FMC catering services. Please send 'hi' for instructions.",
             title: "FMC Helper",
             mainColor: "#e4e000",
             bubbleBackground: "#b9100a"

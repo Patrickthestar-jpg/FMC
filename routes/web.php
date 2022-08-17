@@ -154,6 +154,7 @@ Route::match(['get', 'post'], '/botman','ContactController@handle');
 Route::get('/message', 'MessageController@index')->name('autorep');
 Route::post('/autorep', 'MessageController@store')->name('autorep.store');
 Route::get('/autorep/delete/{id}', 'MessageController@destroy')->name('autorep.destroy');
+Route::match(['put', 'patch'], '/autorep/update{id}','MessageController@update')->name('autorep.update');
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

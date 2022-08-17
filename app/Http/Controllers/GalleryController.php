@@ -31,8 +31,11 @@ class GalleryController extends Controller
 
     public function display()
     {
-        $gallery = Gallery::all();
-        return view('project.gallery')->with('gallery', $gallery);
+        $e = 'Event';
+        $f = 'Food';
+        $gallery = Gallery::where('type', '=', $e)->get();
+        $food = Gallery::where('type', '=', $f)->get();
+        return view('project.gallery')->with('gallery', $gallery)->with('food', $food);
     }
 
     /**
@@ -63,6 +66,7 @@ class GalleryController extends Controller
         //    $save->name = $name;
            $save->picture = $path;
            $save->caption = $request->input('caption');
+           $save->type = $request->input('type');
 
            $save->save();
 
