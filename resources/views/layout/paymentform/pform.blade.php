@@ -24,7 +24,7 @@
 
     <!-- start -->
     <div class="limiter " style="margin-top: -30px;">
-        <div class="container-login100" style="background-image:url('img/21.jpg');">
+        <div class="container-login100 position-relative" style="background-image:url('img/21.jpg');">
             <!-- cIRCLE -->
             <div class="circle-top"></div>
             <div class="wrap-login100">

@@ -6954,53 +6954,31 @@ input[type=radio] {
 /* responsive */
 @media (max-width:991px) {
   .circle-top {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    right: 40%;
-    top: -20px;
+   opacity: 0;
+
     
   }
-  .wrap-login100{
+ 
+}
+
+@media (max-width:722px) {
+  .login100-form-title{
     margin-top: 0;
-    padding-top:0;
+    padding-top: 0;
   }
 }
 
 @media (max-width:703px){
   .circle-top {
-    position: absolute;
-    width: 20%;
-    height: 10%;
-    right: 35%;
-    top: -55px;
+    opacity: 0;
     
   }
 }
 
-@media (max-width:767px){
-  .circle-top {
-    position: absolute;
-    width: 10%;
-    height: 1%;
-    right: 35%;
-    top: -55px;
-    
+@media (max-width:576px){
+  .p-t-27{
+    margin-top: 0;
+    padding-top: 0;
   }
 }
-
-@media (max-width:1495px){
-  .circle-top {
-    position: absolute;
-    width: 17%;
-    height: 20%;
-    right: 41%;
-    top: 1px;
-    
-  }
-  .wrap-login100{
-    margin-top: 30px;
-  }
-}
-
 

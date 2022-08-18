@@ -21,7 +21,7 @@
                 <button class="dropbtn">Services
                     <i class="fa fa-caret-down"></i>
                 </button>
-                <div class="dropdown1-content">
+                <div class="dropdown1-content " style="z-index: 11;     ">
                     <p class="cat" style="padding:10px; color:black; font-weight:bolder;">CATERING SERVICES</p>
                     <a class="wedd" style="color: black;" href="/wed">Wedding and Debut</a>
                     <!--<a href="#">Corporate</a>

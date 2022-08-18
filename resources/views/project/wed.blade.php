@@ -14,7 +14,7 @@ Wedding
     <link rel="stylesheet" href="{{ URL::asset('css/modal.css') }}">
 </head>
 
-<body style="background-image:   url('/img/gal_frame.png'); background-repeat:no-repeat; background-size:cover;">
+<body style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.959), rgba(119, 119, 119, 0.945)), url('/img/4.jpg'); background-repeat: no-repeat; background-size: cover;">
     <p class="FMC">FMC Catering Services</p>
     <p class="wd"><u>Wedding and Debut Package</u></p>
 
