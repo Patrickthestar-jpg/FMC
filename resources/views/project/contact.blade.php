@@ -68,14 +68,6 @@ Contact
                         <p class="text1"><span>Social</span> <a href="#" class="text1"  > {{$contact->socmed}}</a></p>
                     </div>
                 </div>
-                <div class="dbox w-100 d-flex align-items-center py-3">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-lg fa-globe"></span>
-                    </div>
-                    <div class="text pl-3">
-                        <p class="text1"><span>Website</span> <a href="#" class="text1" >yoursite.com</a></p>
-                    </div>
-                </div>
             </form>
         </div>
     </div>
