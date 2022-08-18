@@ -5,6 +5,31 @@
   box-sizing: border-box;
 }
 
+.bg-gal2{
+  /* background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.301), rgba(255, 255, 255, 0.801), rgba(255, 255, 255, 0.301) ),url('/img/bg-gal2.jpg');
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  position: relative;
+  background: url('/project/img/red.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:50px 0;
+  font-family:'Poppins', sans-serif;
+}
+.bg-gal2::before{
+  content:'';position: absolute;right:0;left:0;top:0;bottom:0;background: rgba(31, 31, 31, 0.7);
+}
+
+.bg-gal2-1{
+  background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.301), rgba(255, 255, 255, 0.801), rgba(255, 255, 255, 0.301) ),url('/img/bg-gal2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron{
+  border-top-left-radius: 5px solid yellow;
+}
 
 div.gallery:hover{
     transform: scale(1.1,1.1);
@@ -14,7 +39,7 @@ div.gallery:hover{
 
 div.gallery img {
   border-radius: 30px;
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
@@ -162,3 +187,31 @@ div.desc {
       width: 100%;
     }
   }
+
+
+/* TITLE  */
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  padding: 20px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title h5 {
+  color: var(--aureolin);
+  line-height: 1.2em;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: -3px;
+}
+
+.title h2 {
+  color: #ffffff;
+  line-height: 1.2em;
+  font-weight: 900;
+  font-size: 35px;
+  letter-spacing: -1px;
+  margin: 0
+}

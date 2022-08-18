@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\MessageModel;
+use App\Models\Message;
 use Illuminate\Support\Facades\Auth;
 
 class MessageController extends Controller
@@ -12,8 +12,8 @@ class MessageController extends Controller
     {
         if (Auth::check()) {
 
-            $messages = MessageModel::all();
-            return view('layout.message.message', compact('messages'));
+            $message = Message::all();
+            return view('messages.autorep')->with('message', $message);
 
          }
        
@@ -25,10 +25,33 @@ class MessageController extends Controller
 
     public function store(Request $request)
     {
-        MessageModel::create(
-            $request->all()
-        );
+        $save = new Message;
 
-        return redirect()->route('home.index');
+
+           $save->message = $request->input('message');
+           $save->reply = $request->input('reply');
+
+           $save->save();
+
+           return redirect()->route('autorep')->with('status', 'Autoreply has been added');
+    }
+
+    public function update(Request $request, $id)
+    {
+        $message = Message::find($id);
+        $message->message = $request->input('message');
+        $message->reply = $request->input('reply');
+
+        $message->save();
+        return redirect()->route('autorep')->with('message', 'Autoreply has been updated');
+
+    }
+
+    public function destroy($id)
+    {
+        $message = Message::find($id);
+        $message->delete();
+        return redirect()->route('autorep')->with('message', 'Autoreply has been deleted');
+
     }
 }

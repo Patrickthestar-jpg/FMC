@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Contact;
+use App\Models\Message;
+use BotMan\BotMan\BotMan;
+use BotMan\BotMan\Messages\Incoming\Answer;
 use Illuminate\Support\Facades\Auth;
 
 class ContactController extends Controller
@@ -31,6 +34,42 @@ class ContactController extends Controller
     {
         $contact = Contact::first();
         return view('project.contact')->with('contact', $contact);
+
+    }
+
+    public function handle()
+    {
+        $botman = app('botman');
+
+        $botman->hears('{message}', function ($botman, $message) {
+        
+            $m = Message::where('message', 'LIKE', '%'.$message.'%')->pluck('message')->first();
+            $r = message::where('message', '=', $m)->pluck('reply')->first();
+
+
+            if ($message == 'hi') {
+                $botman->reply("Here are the instructions in using our auto reply bot: Type 'Packages' to see information about packages. Type 'Location' to see if we extend our services to your location.");
+                
+            } 
+           else if ($message == $m) {
+                $botman->reply($r);    
+            } 
+            else {
+                $botman->reply("write 'hi' for instructions...");
+            }
+        });
+
+        $botman->listen();
+    }
+
+    public function askName($botman)
+    {
+        $botman->ask('Hello! What is your Name?', function (Answer $answer) {
+
+            $name = $answer->getText();
+
+            $this->say('Nice to meet you ' . $name);
+        });
     }
 
     /**
@@ -112,4 +151,5 @@ class ContactController extends Controller
     {
         //
     }
+
 }

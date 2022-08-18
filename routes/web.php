@@ -109,9 +109,7 @@ Route::get('pform','PaymentFormController@pform')->name('layout.paymentform.pfor
 Route::get('thankyou','PaymentFormController@thank')->name('layout.paymentform.thank');
 Route::post('payment/store','PaymentFormController@store')->name('layout.paymentform.store');
 
-//message
-Route::post('/message', 'MessageController@store')->name('layout.message.store');
-Route::get('/message', 'MessageController@index')->name('layout.message.message');
+
 //Package
 Route::get('/customize/package', [PackageController::class,'index'])->name('customize.package.index');
 Route::post('/customize/package/store', [PackageController::class,'store'])->name('customize.package.store');
@@ -133,6 +131,7 @@ Route::get('/picture/delete/{id}', 'GalleryController@destroy')->name('picture.d
 
 //Contacts
 Route::get('/admin-contacts', 'ContactController@index')->name('admin-contact');
+// Route::match(['get', 'post'], '/contacts','ContactController@display')->name('user-contact');
 Route::get('/contacts', 'ContactController@display')->name('user-contact');
 Route::match(['put', 'patch'], '/contact/update{id}','ContactController@update')->name('update-contact');
 
@@ -147,6 +146,15 @@ Route::get('/events', [EventController::class, 'index'])->name('events.index');
 Route::post('/events/add', [EventController::class, 'store'])->name('events.store');
 Route::put('/events/edit/{id}', [EventController::class, 'update'])->name('events.update');
 
+//botman
+Route::match(['get', 'post'], '/botman','ContactController@handle');
+// Route::match(['get', 'post'], '/botman', [BotmanController::class, 'handle']);
+
+//messages
+Route::get('/message', 'MessageController@index')->name('autorep');
+Route::post('/autorep', 'MessageController@store')->name('autorep.store');
+Route::get('/autorep/delete/{id}', 'MessageController@destroy')->name('autorep.destroy');
+Route::match(['put', 'patch'], '/autorep/update{id}','MessageController@update')->name('autorep.update');
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

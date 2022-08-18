@@ -18,9 +18,18 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
+<<<<<<< HEAD
+=======
+        '972fda704d680a3a53c68e34e193cb22' => __DIR__ . '/..' . '/react/promise-timer/src/functions_include.php',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
-        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
+<<<<<<< HEAD
+        'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
+=======
+        '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '972fda704d680a3a53c68e34e193cb22' => __DIR__ . '/..' . '/react/promise-timer/src/functions_include.php',
         '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
@@ -29,6 +38,8 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
+        'fe62ba7e10580d903cc46d808b5961a4' => __DIR__ . '/..' . '/tightenco/collect/src/Collect/Support/helpers.php',
+        'caf31cc6ec7cf2241cb6f12c226c3846' => __DIR__ . '/..' . '/tightenco/collect/src/Collect/Support/alias.php',
         '265b4faa2b3a9766332744949e83bf97' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Collections/helpers.php',
         'c7a3c339e7e14b60e06a2d7fcce9476b' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
@@ -185,6 +196,10 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         array (
             'Brick\\Math\\' => 11,
             'BotMan\\Drivers\\Web\\' => 19,
+<<<<<<< HEAD
+=======
+            'BotMan\\Drivers\\Facebook\\' => 24,
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
             'BotMan\\BotMan\\' => 14,
         ),
         'A' => 
@@ -555,6 +570,13 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         array (
             0 => __DIR__ . '/..' . '/botman/driver-web/src',
         ),
+<<<<<<< HEAD
+=======
+        'BotMan\\Drivers\\Facebook\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/botman/driver-facebook/src',
+        ),
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         'BotMan\\BotMan\\' => 
         array (
             0 => __DIR__ . '/..' . '/botman/botman/src',
@@ -595,6 +617,10 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
+<<<<<<< HEAD
+=======
+        'App\\Http\\Controllers\\BotmanController' => __DIR__ . '/../..' . '/app/Http/Controllers/BotmanController.php',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         'App\\Http\\Controllers\\ConPaymentController' => __DIR__ . '/../..' . '/app/Http/Controllers/ConPaymentController.php',
         'App\\Http\\Controllers\\ConfirmedController' => __DIR__ . '/../..' . '/app/Http/Controllers/ConfirmedController.php',
         'App\\Http\\Controllers\\ContactController' => __DIR__ . '/../..' . '/app/Http/Controllers/ContactController.php',
@@ -636,7 +662,11 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         'App\\Models\\Event' => __DIR__ . '/../..' . '/app/Models/Event.php',
         'App\\Models\\FinishModel' => __DIR__ . '/../..' . '/app/Models/FinishModel.php',
         'App\\Models\\Gallery' => __DIR__ . '/../..' . '/app/Models/Gallery.php',
+<<<<<<< HEAD
         'App\\Models\\MessageModel' => __DIR__ . '/../..' . '/app/Models/MessageModel.php',
+=======
+        'App\\Models\\Message' => __DIR__ . '/../..' . '/app/Models/Message.php',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         'App\\Models\\OngoingModel' => __DIR__ . '/../..' . '/app/Models/OngoingModel.php',
         'App\\Models\\PaymentForm' => __DIR__ . '/../..' . '/app/Models/PaymentForm.php',
         'App\\Models\\RefusedModel' => __DIR__ . '/../..' . '/app/Models/RefusedModel.php',
@@ -726,6 +756,61 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         'BotMan\\BotMan\\Traits\\HandlesExceptions' => __DIR__ . '/..' . '/botman/botman/src/Traits/HandlesExceptions.php',
         'BotMan\\BotMan\\Traits\\ProvidesStorage' => __DIR__ . '/..' . '/botman/botman/src/Traits/ProvidesStorage.php',
         'BotMan\\BotMan\\Users\\User' => __DIR__ . '/..' . '/botman/botman/src/Users/User.php',
+<<<<<<< HEAD
+=======
+        'BotMan\\Drivers\\Facebook\\Commands\\AddGreetingText' => __DIR__ . '/..' . '/botman/driver-facebook/src/Commands/AddGreetingText.php',
+        'BotMan\\Drivers\\Facebook\\Commands\\AddPersistentMenu' => __DIR__ . '/..' . '/botman/driver-facebook/src/Commands/AddPersistentMenu.php',
+        'BotMan\\Drivers\\Facebook\\Commands\\AddStartButtonPayload' => __DIR__ . '/..' . '/botman/driver-facebook/src/Commands/AddStartButtonPayload.php',
+        'BotMan\\Drivers\\Facebook\\Commands\\Nlp' => __DIR__ . '/..' . '/botman/driver-facebook/src/Commands/Nlp.php',
+        'BotMan\\Drivers\\Facebook\\Commands\\WhitelistDomains' => __DIR__ . '/..' . '/botman/driver-facebook/src/Commands/WhitelistDomains.php',
+        'BotMan\\Drivers\\Facebook\\Events\\FacebookEvent' => __DIR__ . '/..' . '/botman/driver-facebook/src/Events/FacebookEvent.php',
+        'BotMan\\Drivers\\Facebook\\Events\\MessagingAccountLinking' => __DIR__ . '/..' . '/botman/driver-facebook/src/Events/MessagingAccountLinking.php',
+        'BotMan\\Drivers\\Facebook\\Events\\MessagingCheckoutUpdates' => __DIR__ . '/..' . '/botman/driver-facebook/src/Events/MessagingCheckoutUpdates.php',
+        'BotMan\\Drivers\\Facebook\\Events\\MessagingDeliveries' => __DIR__ . '/..' . '/botman/driver-facebook/src/Events/MessagingDeliveries.php',
+        'BotMan\\Drivers\\Facebook\\Events\\MessagingOptins' => __DIR__ . '/..' . '/botman/driver-facebook/src/Events/MessagingOptins.php',
+        'BotMan\\Drivers\\Facebook\\Events\\MessagingPostbacks' => __DIR__ . '/..' . '/botman/driver-facebook/src/Events/MessagingPostbacks.php',
+        'BotMan\\Drivers\\Facebook\\Events\\MessagingReads' => __DIR__ . '/..' . '/botman/driver-facebook/src/Events/MessagingReads.php',
+        'BotMan\\Drivers\\Facebook\\Events\\MessagingReferrals' => __DIR__ . '/..' . '/botman/driver-facebook/src/Events/MessagingReferrals.php',
+        'BotMan\\Drivers\\Facebook\\Exceptions\\FacebookException' => __DIR__ . '/..' . '/botman/driver-facebook/src/Exceptions/FacebookException.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\AbstractAirlineTemplate' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/AbstractAirlineTemplate.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\AirlineBoardingPassTemplate' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/AirlineBoardingPassTemplate.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\AirlineCheckInTemplate' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/AirlineCheckInTemplate.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\AirlineItineraryTemplate' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/AirlineItineraryTemplate.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\AirlineUpdateTemplate' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/AirlineUpdateTemplate.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\Airline\\AbstractAirlineFlightInfo' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/Airline/AbstractAirlineFlightInfo.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\Airline\\AirlineAirport' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/Airline/AirlineAirport.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\Airline\\AirlineBoardingPass' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/Airline/AirlineBoardingPass.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\Airline\\AirlineExtendedFlightInfo' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/Airline/AirlineExtendedFlightInfo.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\Airline\\AirlineFlightInfo' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/Airline/AirlineFlightInfo.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\Airline\\AirlineFlightSchedule' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/Airline/AirlineFlightSchedule.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\Airline\\AirlinePassengerInfo' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/Airline/AirlinePassengerInfo.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\Airline\\AirlinePassengerSegmentInfo' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/Airline/AirlinePassengerSegmentInfo.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\ButtonTemplate' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/ButtonTemplate.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\Element' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/Element.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\ElementButton' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/ElementButton.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\GenericTemplate' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/GenericTemplate.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\ListTemplate' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/ListTemplate.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\MediaAttachmentElement' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/MediaAttachmentElement.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\MediaTemplate' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/MediaTemplate.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\MediaUrlElement' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/MediaUrlElement.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\OpenGraphElement' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/OpenGraphElement.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\OpenGraphTemplate' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/OpenGraphTemplate.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\QuickReplyButton' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/QuickReplyButton.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\ReceiptAddress' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/ReceiptAddress.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\ReceiptAdjustment' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/ReceiptAdjustment.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\ReceiptElement' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/ReceiptElement.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\ReceiptSummary' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/ReceiptSummary.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\ReceiptTemplate' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/ReceiptTemplate.php',
+        'BotMan\\Drivers\\Facebook\\Extensions\\User' => __DIR__ . '/..' . '/botman/driver-facebook/src/Extensions/User.php',
+        'BotMan\\Drivers\\Facebook\\FacebookAudioDriver' => __DIR__ . '/..' . '/botman/driver-facebook/src/FacebookAudioDriver.php',
+        'BotMan\\Drivers\\Facebook\\FacebookDriver' => __DIR__ . '/..' . '/botman/driver-facebook/src/FacebookDriver.php',
+        'BotMan\\Drivers\\Facebook\\FacebookFileDriver' => __DIR__ . '/..' . '/botman/driver-facebook/src/FacebookFileDriver.php',
+        'BotMan\\Drivers\\Facebook\\FacebookImageDriver' => __DIR__ . '/..' . '/botman/driver-facebook/src/FacebookImageDriver.php',
+        'BotMan\\Drivers\\Facebook\\FacebookLocationDriver' => __DIR__ . '/..' . '/botman/driver-facebook/src/FacebookLocationDriver.php',
+        'BotMan\\Drivers\\Facebook\\FacebookVideoDriver' => __DIR__ . '/..' . '/botman/driver-facebook/src/FacebookVideoDriver.php',
+        'BotMan\\Drivers\\Facebook\\Interfaces\\Airline' => __DIR__ . '/..' . '/botman/driver-facebook/src/Interfaces/Airline.php',
+        'BotMan\\Drivers\\Facebook\\Providers\\FacebookServiceProvider' => __DIR__ . '/..' . '/botman/driver-facebook/src/Providers/FacebookServiceProvider.php',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         'BotMan\\Drivers\\Web\\Extras\\TypingIndicator' => __DIR__ . '/..' . '/botman/driver-web/src/Extras/TypingIndicator.php',
         'BotMan\\Drivers\\Web\\Providers\\WebServiceProvider' => __DIR__ . '/..' . '/botman/driver-web/src/Providers/WebServiceProvider.php',
         'BotMan\\Drivers\\Web\\WebDriver' => __DIR__ . '/..' . '/botman/driver-web/src/WebDriver.php',

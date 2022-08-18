@@ -1,0 +1,25 @@
+.modal-content{
+    background: linear-gradient(to left, rgb(143, 143, 143), rgb(194, 194, 194));
+    background: #95241E;
+    background: -webkit-linear-gradient(top, #d8084d, #95241E);
+    background: -o-linear-gradient(top, #d8084d, #95241E);
+    background: -moz-linear-gradient(top, #d8084d, #95241E);
+    background: linear-gradient(top, #d8084d, #95241E);
+    border-radius: 0 30px 0 30px;
+}
+.btn-danger{
+    background-color: var(--aureolin);
+    color: black;
+    border: 2px solid var(--aureolin);
+}
+.btn-danger:hover{
+    background-color: transparent;
+    border: 2px solid var(--aureolin);
+    color: var(--aureolin);
+}
+.modal-body, .modal-title{
+    color: white;
+}
+
+
+

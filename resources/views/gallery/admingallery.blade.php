@@ -42,6 +42,7 @@
                         <tr>
                             <th scope="col">ID</th>
                             <th scope="col">Picture</th>
+                            <th scope="col">Type</th>
                             <th scope="col">Caption</th>
                             <th class="text-center" scope="col">Action</th>
                         </tr>
@@ -51,6 +52,7 @@
                             <tr>
                                 <td>{{$item->id}}</td>
                                 <td><img src="{{$item->picture}}" alt="picture" style="width:100px;"></td>
+                                <td>{{$item->type}}</td>
                                 <td>{{$item->caption}}</td>
                                 <td class="text-center">
                                     <a class="btn btn-sm btn-outline-danger" style="color: #dc3545;" onMouseOver="this.style.color='white'"

@@ -95,6 +95,10 @@ return array(
     'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
     'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
     'BotMan\\Drivers\\Web\\' => array($vendorDir . '/botman/driver-web/src'),
+<<<<<<< HEAD
+=======
+    'BotMan\\Drivers\\Facebook\\' => array($vendorDir . '/botman/driver-facebook/src'),
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
     'BotMan\\BotMan\\' => array($vendorDir . '/botman/botman/src'),
     'Asm89\\Stack\\' => array($vendorDir . '/asm89/stack-cors/src'),
     'App\\' => array($baseDir . '/app'),

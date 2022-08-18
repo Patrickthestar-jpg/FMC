@@ -31,6 +31,12 @@
 
     <!-- Custom styles for this template-->
     <link href="{{ asset('css/sb-admin-2.min.css') }}" rel="stylesheet">
+
+
+    <!-- custom modal -->
+
+    <link rel="stylesheet" href="/css/modal1.css">
+
     @yield('page_level_css')
 </head>
 
@@ -88,17 +94,17 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <h5 class="modal-title text-white" id="exampleModalLabel">Ready to Leave?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body text-dark">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
                     <form action="{{ route('logout') }}" method="POST">
                         @csrf
-                        <button class="btn btn-primary" type="submit">Logout</button>
+                        <button class="btn btn-danger" type="submit">Logout</button>
                     </form>
                 </div>
             </div>

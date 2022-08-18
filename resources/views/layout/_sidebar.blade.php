@@ -1,4 +1,14 @@
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+<head>
+    <style>
+     
+        .nav-item:hover{
+            background: -webkit-linear-gradient(bottom, #ff7b00, #FFE600);
+            transition: 0.5s ease-in-out;
+        }
+    </style>
+</head>
+
+<ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background: -webkit-linear-gradient(top, #d8084d, #95241E);">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{route('layout.master_layout')}}">
@@ -12,9 +22,9 @@
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
             <li class=" nav-item ">
-                <a class="nav-link" href="{{route('layout.dashboard.index')}}">
+                <a class="nav-link " href="{{route('layout.dashboard.index')}}">
                 <i class="fas fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span >Dashboard</span></a>
             </li>
             <hr class="sidebar-divider my-0">
 
@@ -22,7 +32,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class=" nav-item ">
-                <a class="nav-link" href="{{route('layout.message.message')}}">
+                <a class="nav-link" href="{{route('autorep')}}">
                 <i class="fas fa-envelope"></i>
                     <span>Messages</span></a>
             </li>

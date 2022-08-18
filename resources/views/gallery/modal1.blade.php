@@ -39,6 +39,18 @@
                         <br> <br>
 
                         <div class="input-group">
+                            <label class="col-sm-2 col-form-label">Type</label>
+                            <div class="form-group col-sm-10">
+                                <select class="form-control" id="pork" name="type">
+                                    <option selected>Select Item</option>
+                                    <option value="Event">Event</option>
+                                    <option value="Food">Food</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="input-group">
                             <label class="col-sm-2 col-form-label">Caption</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="caption">
