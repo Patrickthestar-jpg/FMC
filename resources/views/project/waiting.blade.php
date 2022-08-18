@@ -7,7 +7,7 @@
 @section('content')
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="{{ URL::asset('project/css/wedform.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('paymentcss/waiting.css') }}">
     </head>
 
     <body style="background-image:url('project/img/red.jpg'); background-repeat: no-repeat; background-size: cover;">
