@@ -15,6 +15,13 @@ Contact
     <link rel="stylesheet" href="{{ URL::asset('project/css/footer.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('project/css/contact.css') }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            font-family: Poppins, 'sans-serif';
+        }
+    </style>
+</head>
+    
 
 <body style="background-image:url('project/img/red.jpg'); background-repeat: no-repeat; background-size: cover">
 
@@ -44,12 +51,12 @@ Contact
             
 
                 <div class="dbox w-100 d-flex align-items-start justify-content-center py-3 position-relative">
-                    <div class="icon d-flex align-items-center justify-content-center position-absolute " style=" top:38px; left:0; ">
+                    <div class="icon d-flex align-items-center justify-content-center position-absolute " style=" top:45px; left:0; ">
                         <span class="fa fa-lg fa-map-marker" ></span>
                         
                     </div>
                     <div class="text pl-3 ml-3" >
-                        <p class="text1"><span>Address:</span> {{$contact->address}}</p>
+                        <p class="text1"><span>Address:</span> <span class="text1">{{$contact->address}}</span> </p>
                         
                     </div>
                 </div>
@@ -58,7 +65,7 @@ Contact
                         <span class="fa fa-lg fa-phone"></span>
                     </div>
                     <div class="text pl-3">
-                        <p class="text1"><span>Phone:</span> <a href="#" class="text1"  > {{$contact->name}}<br>{{$contact->contact_no}}</a></p>
+                        <p class="text1"><span>Phone:</span> <span href="#" class="text1"  > {{$contact->name}}<br>{{$contact->contact_no}}</s></p>
                     </div>
                 </div>
                 <div class="dbox w-100 d-flex align-items-center py-3">
@@ -66,20 +73,13 @@ Contact
                         <span class="fa fa-lg fa-paper-plane"></span>
                     </div>
                     <div class="text pl-3">
-                        <p class="text1"><span>Social</span> <a href="#" class="text1"  > {{$contact->socmed}}</a></p>
+                        <p class="text1"><span>Social</span> <span href="#" class="text1"  > {{$contact->socmed}}</span></p>
                     </div>
                 </div>
-<<<<<<< HEAD
+<!-- <<<<<<< HEAD
 =======
-                <!-- <div class="dbox w-100 d-flex align-items-center py-3">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-lg fa-globe"></span>
-                    </div>
-                    <div class="text pl-3">
-                        <p class="text1"><span>Website</span> <a href="#" class="text1" >yoursite.com</a></p>
-                    </div>
-                </div> -->
->>>>>>> 1404d7029db67d416b2da8a894e780f57ea3e773
+
+>>>>>>> 1404d7029db67d416b2da8a894e780f57ea3e773 -->
             </form>
         </div>
     </div>
