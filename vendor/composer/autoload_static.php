@@ -18,12 +18,21 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
+<<<<<<< HEAD
+=======
         '972fda704d680a3a53c68e34e193cb22' => __DIR__ . '/..' . '/react/promise-timer/src/functions_include.php',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
+<<<<<<< HEAD
+        'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
+=======
         '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        '972fda704d680a3a53c68e34e193cb22' => __DIR__ . '/..' . '/react/promise-timer/src/functions_include.php',
+        '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
@@ -36,6 +45,8 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
+        'fe62ba7e10580d903cc46d808b5961a4' => __DIR__ . '/..' . '/tightenco/collect/src/Collect/Support/helpers.php',
+        'caf31cc6ec7cf2241cb6f12c226c3846' => __DIR__ . '/..' . '/tightenco/collect/src/Collect/Support/alias.php',
         '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
@@ -185,7 +196,10 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         array (
             'Brick\\Math\\' => 11,
             'BotMan\\Drivers\\Web\\' => 19,
+<<<<<<< HEAD
+=======
             'BotMan\\Drivers\\Facebook\\' => 24,
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
             'BotMan\\BotMan\\' => 14,
         ),
         'A' => 
@@ -556,10 +570,13 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         array (
             0 => __DIR__ . '/..' . '/botman/driver-web/src',
         ),
+<<<<<<< HEAD
+=======
         'BotMan\\Drivers\\Facebook\\' => 
         array (
             0 => __DIR__ . '/..' . '/botman/driver-facebook/src',
         ),
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         'BotMan\\BotMan\\' => 
         array (
             0 => __DIR__ . '/..' . '/botman/botman/src',
@@ -600,7 +617,10 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
+<<<<<<< HEAD
+=======
         'App\\Http\\Controllers\\BotmanController' => __DIR__ . '/../..' . '/app/Http/Controllers/BotmanController.php',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         'App\\Http\\Controllers\\ConPaymentController' => __DIR__ . '/../..' . '/app/Http/Controllers/ConPaymentController.php',
         'App\\Http\\Controllers\\ConfirmedController' => __DIR__ . '/../..' . '/app/Http/Controllers/ConfirmedController.php',
         'App\\Http\\Controllers\\ContactController' => __DIR__ . '/../..' . '/app/Http/Controllers/ContactController.php',
@@ -642,7 +662,11 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         'App\\Models\\Event' => __DIR__ . '/../..' . '/app/Models/Event.php',
         'App\\Models\\FinishModel' => __DIR__ . '/../..' . '/app/Models/FinishModel.php',
         'App\\Models\\Gallery' => __DIR__ . '/../..' . '/app/Models/Gallery.php',
+<<<<<<< HEAD
+        'App\\Models\\MessageModel' => __DIR__ . '/../..' . '/app/Models/MessageModel.php',
+=======
         'App\\Models\\Message' => __DIR__ . '/../..' . '/app/Models/Message.php',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         'App\\Models\\OngoingModel' => __DIR__ . '/../..' . '/app/Models/OngoingModel.php',
         'App\\Models\\PaymentForm' => __DIR__ . '/../..' . '/app/Models/PaymentForm.php',
         'App\\Models\\RefusedModel' => __DIR__ . '/../..' . '/app/Models/RefusedModel.php',
@@ -732,6 +756,8 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         'BotMan\\BotMan\\Traits\\HandlesExceptions' => __DIR__ . '/..' . '/botman/botman/src/Traits/HandlesExceptions.php',
         'BotMan\\BotMan\\Traits\\ProvidesStorage' => __DIR__ . '/..' . '/botman/botman/src/Traits/ProvidesStorage.php',
         'BotMan\\BotMan\\Users\\User' => __DIR__ . '/..' . '/botman/botman/src/Users/User.php',
+<<<<<<< HEAD
+=======
         'BotMan\\Drivers\\Facebook\\Commands\\AddGreetingText' => __DIR__ . '/..' . '/botman/driver-facebook/src/Commands/AddGreetingText.php',
         'BotMan\\Drivers\\Facebook\\Commands\\AddPersistentMenu' => __DIR__ . '/..' . '/botman/driver-facebook/src/Commands/AddPersistentMenu.php',
         'BotMan\\Drivers\\Facebook\\Commands\\AddStartButtonPayload' => __DIR__ . '/..' . '/botman/driver-facebook/src/Commands/AddStartButtonPayload.php',
@@ -784,6 +810,7 @@ class ComposerStaticInitf5e85db1d4871131835eaf5e2dce5d8b
         'BotMan\\Drivers\\Facebook\\FacebookVideoDriver' => __DIR__ . '/..' . '/botman/driver-facebook/src/FacebookVideoDriver.php',
         'BotMan\\Drivers\\Facebook\\Interfaces\\Airline' => __DIR__ . '/..' . '/botman/driver-facebook/src/Interfaces/Airline.php',
         'BotMan\\Drivers\\Facebook\\Providers\\FacebookServiceProvider' => __DIR__ . '/..' . '/botman/driver-facebook/src/Providers/FacebookServiceProvider.php',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         'BotMan\\Drivers\\Web\\Extras\\TypingIndicator' => __DIR__ . '/..' . '/botman/driver-web/src/Extras/TypingIndicator.php',
         'BotMan\\Drivers\\Web\\Providers\\WebServiceProvider' => __DIR__ . '/..' . '/botman/driver-web/src/Providers/WebServiceProvider.php',
         'BotMan\\Drivers\\Web\\WebDriver' => __DIR__ . '/..' . '/botman/driver-web/src/WebDriver.php',

@@ -14,7 +14,10 @@ return array(
     'App\\Http\\Controllers\\Auth\\RegisterController' => $baseDir . '/app/Http/Controllers/Auth/RegisterController.php',
     'App\\Http\\Controllers\\Auth\\ResetPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ResetPasswordController.php',
     'App\\Http\\Controllers\\Auth\\VerificationController' => $baseDir . '/app/Http/Controllers/Auth/VerificationController.php',
+<<<<<<< HEAD
+=======
     'App\\Http\\Controllers\\BotmanController' => $baseDir . '/app/Http/Controllers/BotmanController.php',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
     'App\\Http\\Controllers\\ConPaymentController' => $baseDir . '/app/Http/Controllers/ConPaymentController.php',
     'App\\Http\\Controllers\\ConfirmedController' => $baseDir . '/app/Http/Controllers/ConfirmedController.php',
     'App\\Http\\Controllers\\ContactController' => $baseDir . '/app/Http/Controllers/ContactController.php',
@@ -56,7 +59,11 @@ return array(
     'App\\Models\\Event' => $baseDir . '/app/Models/Event.php',
     'App\\Models\\FinishModel' => $baseDir . '/app/Models/FinishModel.php',
     'App\\Models\\Gallery' => $baseDir . '/app/Models/Gallery.php',
+<<<<<<< HEAD
+    'App\\Models\\MessageModel' => $baseDir . '/app/Models/MessageModel.php',
+=======
     'App\\Models\\Message' => $baseDir . '/app/Models/Message.php',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
     'App\\Models\\OngoingModel' => $baseDir . '/app/Models/OngoingModel.php',
     'App\\Models\\PaymentForm' => $baseDir . '/app/Models/PaymentForm.php',
     'App\\Models\\RefusedModel' => $baseDir . '/app/Models/RefusedModel.php',
@@ -146,6 +153,8 @@ return array(
     'BotMan\\BotMan\\Traits\\HandlesExceptions' => $vendorDir . '/botman/botman/src/Traits/HandlesExceptions.php',
     'BotMan\\BotMan\\Traits\\ProvidesStorage' => $vendorDir . '/botman/botman/src/Traits/ProvidesStorage.php',
     'BotMan\\BotMan\\Users\\User' => $vendorDir . '/botman/botman/src/Users/User.php',
+<<<<<<< HEAD
+=======
     'BotMan\\Drivers\\Facebook\\Commands\\AddGreetingText' => $vendorDir . '/botman/driver-facebook/src/Commands/AddGreetingText.php',
     'BotMan\\Drivers\\Facebook\\Commands\\AddPersistentMenu' => $vendorDir . '/botman/driver-facebook/src/Commands/AddPersistentMenu.php',
     'BotMan\\Drivers\\Facebook\\Commands\\AddStartButtonPayload' => $vendorDir . '/botman/driver-facebook/src/Commands/AddStartButtonPayload.php',
@@ -198,6 +207,7 @@ return array(
     'BotMan\\Drivers\\Facebook\\FacebookVideoDriver' => $vendorDir . '/botman/driver-facebook/src/FacebookVideoDriver.php',
     'BotMan\\Drivers\\Facebook\\Interfaces\\Airline' => $vendorDir . '/botman/driver-facebook/src/Interfaces/Airline.php',
     'BotMan\\Drivers\\Facebook\\Providers\\FacebookServiceProvider' => $vendorDir . '/botman/driver-facebook/src/Providers/FacebookServiceProvider.php',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
     'BotMan\\Drivers\\Web\\Extras\\TypingIndicator' => $vendorDir . '/botman/driver-web/src/Extras/TypingIndicator.php',
     'BotMan\\Drivers\\Web\\Providers\\WebServiceProvider' => $vendorDir . '/botman/driver-web/src/Providers/WebServiceProvider.php',
     'BotMan\\Drivers\\Web\\WebDriver' => $vendorDir . '/botman/driver-web/src/WebDriver.php',

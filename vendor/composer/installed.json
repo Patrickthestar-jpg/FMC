@@ -143,6 +143,8 @@
             "install-path": "../botman/botman"
         },
         {
+<<<<<<< HEAD
+=======
             "name": "botman/driver-facebook",
             "version": "v1.11.1",
             "version_normalized": "1.11.1.0",
@@ -212,6 +214,7 @@
             "install-path": "../botman/driver-facebook"
         },
         {
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
             "name": "botman/driver-web",
             "version": "v1.5.3",
             "version_normalized": "1.5.3.0",

@@ -5,7 +5,11 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
+<<<<<<< HEAD
+        'reference' => '04927b4ac5fe1cfd0fbc7c23a524c87e4b7f3493',
+=======
         'reference' => '4152bf905d780de6b5ddcf0fa1ab64c5a1b78916',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -28,6 +32,8 @@
             'reference' => 'cbdb02593f7c09ee5e04451357eb17aad0ae65dc',
             'dev_requirement' => false,
         ),
+<<<<<<< HEAD
+=======
         'botman/driver-facebook' => array(
             'pretty_version' => 'v1.11.1',
             'version' => '1.11.1.0',
@@ -37,6 +43,7 @@
             'reference' => '5c0874381177029acc365386838a829b0692529a',
             'dev_requirement' => false,
         ),
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
         'botman/driver-web' => array(
             'pretty_version' => 'v1.5.3',
             'version' => '1.5.3.0',
@@ -427,7 +434,11 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
+<<<<<<< HEAD
+            'reference' => '04927b4ac5fe1cfd0fbc7c23a524c87e4b7f3493',
+=======
             'reference' => '4152bf905d780de6b5ddcf0fa1ab64c5a1b78916',
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(

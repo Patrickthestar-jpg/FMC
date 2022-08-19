@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
+    "content-hash": "c1073d479c9e08a01aaed26d39e38933",
+=======
     "content-hash": "b9c18243c0c4b85e491e27986f533c3c",
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -143,6 +147,8 @@
             "time": "2022-07-15T07:46:02+00:00"
         },
         {
+<<<<<<< HEAD
+=======
             "name": "botman/driver-facebook",
             "version": "v1.11.1",
             "source": {
@@ -209,6 +215,7 @@
             "time": "2022-06-13T10:06:25+00:00"
         },
         {
+>>>>>>> 04102c113e2618042fc7eafce204af11463a613c
             "name": "botman/driver-web",
             "version": "v1.5.3",
             "source": {
