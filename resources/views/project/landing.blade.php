@@ -54,14 +54,14 @@
                         <div class="card">
                             <div class="image image1"></div>
                             <div class="info">
-                                <h4>Go to Gallery</h4>
+                               <!-- <h4>Go to Gallery</h4> -->
 
                             </div>
                         </div>
                         <div class="card">
                             <div class="image image2"></div>
                             <div class="info">
-                                <h4>Go to Gallery</h4>
+                               <!--  <h4>Go to Gallery</h4> -->
 
                             </div>
                         </div>
@@ -115,8 +115,8 @@
 
     <section class="testimonials container-fluid wrapper">
         <div class="title">
-            <h5>TItle 2</h5>
-            <h2>Title</h2>
+            <h5>Our</h5>
+            <h2>Featured Client</h2>
         </div>
         <div class="container contafter">
 
@@ -126,8 +126,8 @@
                 <!--Card-->
                 <div class="col-md-4">
 
-                    <div class="card-landing text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80'); background-size:cover; background-position: center;">
-                        <img class="card-img d-none" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80" alt="Package 2" style="object-fit:cover;">
+                    <div class="card-landing text-white card-has-bg click-col" style="background-image:url('img/1.jpg')">
+                        <img class="card-img d-none" src="img/1.jpg" alt="Package 2">
 
 
                         <!-- CARD HOVER UP -->
@@ -138,8 +138,8 @@
                                 </svg>
 
                                 <div class="card__header-text">
-                                    <h3 class="card__title">Name</h3>
-                                    <span class="card__status">Details</span>
+                                    <h3 class="card__title">Loren Magnaye Briz</h3>
+                                    <span class="card__status">Debut (2019)</span>
                                 </div>
                             </div>
                             <p class="card__description"></p>
@@ -152,7 +152,7 @@
                 <!--Second Card-->
                 <div class="col-md-4">
 
-                    <div class="card-landing text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80'); background-size:cover; background-repeat:no-repeat;  background-position: center;">
+                    <div class="card-landing text-white card-has-bg click-col" style="background-image:url('img/1.jpg')">
                         <img class="card-img d-none" src="img/1.jpg" alt="Package 2">
 
 
@@ -164,8 +164,8 @@
                                 </svg>
 
                                 <div class="card__header-text">
-                                    <h3 class="card__title">Name</h3>
-                                    <span class="card__status">Details</span>
+                                    <h3 class="card__title">Patrick Esplana Silva</h3>
+                                    <span class="card__status">Debut (2020)</span>
                                 </div>
                             </div>
                             <p class="card__description"></p>
@@ -178,7 +178,7 @@
                 <!--Third Card-->
                 <div class="col-md-4">
 
-                    <div class="card-landing text-white card-has-bg click-col" style="background-image:url('img/ferdinand.png'); background-size:cover; background-repeat:no-repeat; background-position: center;">
+                    <div class="card-landing text-white card-has-bg click-col" style="background-image:url('img/1.jpg')">
                         <img class="card-img d-none" src="img/1.jpg" alt="Package 2">
 
 
@@ -190,8 +190,8 @@
                                 </svg>
 
                                 <div class="card__header-text">
-                                    <h3 class="card__title">Name</h3>
-                                    <span class="card__status">Details</span>
+                                    <h3 class="card__title">Bianca Alcantara Pajadan</h3>
+                                    <span class="card__status">Wedding (2013)</span>
                                 </div>
                             </div>
                             <p class="card__description"></p>
