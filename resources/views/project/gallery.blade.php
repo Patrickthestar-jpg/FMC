@@ -18,176 +18,54 @@ Gallery
 </head>
 
 <body>
+  <div class="container-fluid d-flex justify-content-center align-items-center bg-gal" style=" height:100vh;">
 
-
-  <!-- Carousel -->
-  <div class="containter-fluid d-flex justify-content-center align-items-center bg-gal" style=" height:100vh;">
-
-    <!-- CAROUSEL -->
-
-    <div id="scene" class="row">
-      <div id="left-zone" class="col-md-4">
-        <ul class="list ">
-          <li class="item"><input type="radio" id="radio_The garden strawberry (or simply strawberry /ˈstrɔːbᵊri/; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries)" name="basic_carousel" value="The garden strawberry (or simply strawberry /ˈstrɔːbᵊri/; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries)" checked="checked" /><label class="label_strawberry labl" for="radio_The garden strawberry (or simply strawberry /ˈstrɔːbᵊri/; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries)">Wedding</label>
-            <div class="content content_strawberry"><span></span>
-              <!-- CAROUSEL RIGHT -->
-              <!-- Swiper -->
-              <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <img src="img/1.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/2.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/3.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/4.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/5.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/6.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/7.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/8.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/9.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/10.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/11.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/12.jpg" />
-                  </div>
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-
-
-
-            </div>
-          </li>
-
-          <li class="item"><input type="radio" id="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus." name="basic_carousel" value="The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus." /><label class="label_apple labl" for="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.">Debut</label>
-            <div class="content content_apple">
-              <!-- CAROUSEL RIGHT -->
-              <!-- Swiper -->
-              <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <img src="img/1.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/2.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/3.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/4.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/5.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/6.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/7.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/8.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/9.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/10.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/11.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/12.jpg" />
-                  </div>
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-            </div>
-          </li>
-
-
-          <li class="item"><input type="radio" id="radio_The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae." name="basic_carousel" value="The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae." /><label class="label_orange labl" for="radio_The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.">Others</label>
-            <div class="content content_orange">
-              <!-- CAROUSEL RIGHT -->
-              <!-- Swiper -->
-              <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <img src="img/1.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/2.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/3.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/4.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/5.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/6.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/7.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/8.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/9.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/10.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/11.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/12.jpg" />
-                  </div>
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-            </div>
-          </li>
-        </ul>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img/1.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/2.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/3.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/4.jpg" />
+        </div>
+      
+        <div class="swiper-slide">
+          <img src="img/7.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/8.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/9.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/10.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/11.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/12.jpg" />
+        </div>
       </div>
-      <div id="middle-border"></div>
-      <div id="right-zone" class="col-md-8 d-flex justify-content-center"></div>
-
+      <div class="swiper-pagination"></div>
     </div>
-    <!-- end of scene -->
+
+
 
 
 
 
 
   </div>
+
+
 
   <!-- Event Gallery -->
   <section>

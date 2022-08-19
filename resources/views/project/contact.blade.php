@@ -43,13 +43,14 @@ Contact
 
             
 
-                <div class="dbox w-100 d-flex align-items-start py-3">
-                    <div class="icon d-flex align-items-center justify-content-center">
+                <div class="dbox w-100 d-flex align-items-start justify-content-center py-3 position-relative">
+                    <div class="icon d-flex align-items-center justify-content-center position-absolute " style=" top:38px; left:0; ">
                         <span class="fa fa-lg fa-map-marker" ></span>
                         
                     </div>
-                    <div class="text pl-3 " >
+                    <div class="text pl-3 ml-3" >
                         <p class="text1"><span>Address:</span> {{$contact->address}}</p>
+                        
                     </div>
                 </div>
                 <div class="dbox w-100 d-flex align-items-center py-3">
@@ -68,6 +69,17 @@ Contact
                         <p class="text1"><span>Social</span> <a href="#" class="text1"  > {{$contact->socmed}}</a></p>
                     </div>
                 </div>
+<<<<<<< HEAD
+=======
+                <!-- <div class="dbox w-100 d-flex align-items-center py-3">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-lg fa-globe"></span>
+                    </div>
+                    <div class="text pl-3">
+                        <p class="text1"><span>Website</span> <a href="#" class="text1" >yoursite.com</a></p>
+                    </div>
+                </div> -->
+>>>>>>> 1404d7029db67d416b2da8a894e780f57ea3e773
             </form>
         </div>
     </div>
