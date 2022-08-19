@@ -209,7 +209,7 @@
     </section>
 
 
-    
+
 
 
     <!-- Testimonials -->
@@ -219,34 +219,11 @@
                 <h5>Testimonials</h5>
                 <h2>What our clients say</h2>
             </div>
-            
+
             <div class="sswiper mySwiper">
                 <div class="swiper-wrapper testi ">
 
-                    
-                    <div class="item swiper-slide">
-                        <div class="profile">
-                            <img src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80" alt="">
-                            <div class="information">
-                                <div class="stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <p>Name</p>
-                                <span>Occupation</span>
-                            </div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus. Voluptate quaerat assumenda qui veniam facilis doloribus maiores impedit ducimus cum accusamus.</p>
-                        <div class="icon">
-                            <i class="fa fa-quote-right" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                    
 
-                  
                     <div class="item swiper-slide">
                         <div class="profile">
                             <img src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80" alt="">
@@ -267,9 +244,9 @@
                             <i class="fa fa-quote-right" aria-hidden="true"></i>
                         </div>
                     </div>
-                    
 
-                   
+
+
                     <div class="item swiper-slide">
                         <div class="profile">
                             <img src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80" alt="">
@@ -290,7 +267,30 @@
                             <i class="fa fa-quote-right" aria-hidden="true"></i>
                         </div>
                     </div>
-                   
+
+
+
+                    <div class="item swiper-slide">
+                        <div class="profile">
+                            <img src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80" alt="">
+                            <div class="information">
+                                <div class="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>Name</p>
+                                <span>Occupation</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus. Voluptate quaerat assumenda qui veniam facilis doloribus maiores impedit ducimus cum accusamus.</p>
+                        <div class="icon">
+                            <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
