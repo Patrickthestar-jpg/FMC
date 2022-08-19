@@ -126,7 +126,7 @@
                 <!--Card-->
                 <div class="col-md-4">
 
-                    <div class="card-landing text-white card-has-bg click-col" style="background-image:url('img/1.jpg')">
+                    <div class="card-landing text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80')">
                         <img class="card-img d-none" src="img/1.jpg" alt="Package 2">
 
 
@@ -152,7 +152,7 @@
                 <!--Second Card-->
                 <div class="col-md-4">
 
-                    <div class="card-landing text-white card-has-bg click-col" style="background-image:url('img/1.jpg')">
+                    <div class="card-landing text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80')">
                         <img class="card-img d-none" src="img/1.jpg" alt="Package 2">
 
 
