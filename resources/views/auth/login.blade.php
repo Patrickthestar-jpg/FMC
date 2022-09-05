@@ -31,9 +31,9 @@
                 </span>
 
                 <div class="wrap-input100 validate-input" data-validate="Enter username">
-                    <input class="input100" placeholder="Email Address" id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                    <input class="input100" placeholder="Username" id="username" type="username" class="form-control @error('username') is-invalid @enderror" name="username" value="{{ old('username') }}" required autocomplete="username" autofocus>
                     <span class="focus-input100" data-placeholder="&#xf207;"></span>
-                    @error('email')
+                    @error('username')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
                     </span>

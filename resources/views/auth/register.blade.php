@@ -48,6 +48,14 @@
                     @enderror
                 </div>
                 <div class="form-group">
+                    <input type="text" id="username" placeholder="{{ __('Username') }}" class="form-input @error('username') is-invalid @enderror" name="username" value="{{ old('username') }}" required autocomplete="username" />
+                    @error('username')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                    @enderror
+                </div>
+                <div class="form-group">
                     <input type="text"  name="password" id="password" placeholder="{{ __('Password') }}" class="form-input @error('password') is-invalid @enderror" name="password" required autocomplete="new-password" />
                     <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
                     @error('password')
