@@ -1,9 +1,9 @@
 .cardred{
-  
+
     border-radius: 10px;
     overflow: hidden;
     /* padding: 55px 55px 37px 55px; */
-  
+
     background: #95241E;
     background: -webkit-linear-gradient(top, #d8084d, #95241E);
     background: -o-linear-gradient(top, #d8084d, #95241E);
@@ -83,4 +83,8 @@
 
 .login100-form-btn:hover:before {
   opacity: 0;
+}
+
+.small{
+    color: white;
 }

@@ -62,7 +62,7 @@ About
                   </div>
                 </a>
               </li>
-             
+
             </ul>
 
 
@@ -70,7 +70,7 @@ About
 
           <div class="right-side mr-5">
             <div class="topic-text tcenter">Ferdinand Carandang</div>
-            
+
             <p class="text-white mt-5 text-left tcenter">The Hardworking Ceo of FMC Catering Service who manage the day to day aspects of the business and ensures the clients are satisfied.</p>
           </div>
         </div>
@@ -81,17 +81,17 @@ About
 
     <!-- 2 -->
     <div class="row resprow">
-      
+
       <div class="container-fluids aboutteam ">
         <div class="content team-even">
-          
+
 
           <div class="right-side mr-5">
             <div class="topic-text tcenter">Team A</div>
-            
+
             <p class="text-white mt-5 text-left tcenter">A well trained team/group. They collaborate with clients to design and manage exceptional food and beverage operations.</p>
           </div>
-          
+
           <div class="left-side mr-4">
 
             <ul class="cards">
@@ -113,7 +113,7 @@ About
                   </div>
                 </a>
               </li>
-             
+
             </ul>
 
 
@@ -149,7 +149,7 @@ About
                   </div>
                 </a>
               </li>
-             
+
             </ul>
 
 
@@ -157,7 +157,7 @@ About
 
           <div class="right-side mr-5">
             <div class="topic-text tcenter">Team B</div>
-            
+
             <p class="text-white mt-5 text-left tcenter">A well trained team/group. They collaborate with clients to design and manage exceptional food and beverage operations.</p>
           </div>
         </div>

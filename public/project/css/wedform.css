@@ -16,13 +16,13 @@
     /* margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 280px; */
-    padding:50px 20px 80px 20px;
+    padding:50px 20px 30px 20px;
 }
 
 .fbtn{
     float:right;
     margin:10px;
-    
+
 }
 .btn-outline-info{
     border: #FFE600 1px solid;
@@ -104,4 +104,18 @@
 
 .login100-form-btn:hover:before {
   opacity: 0;
+}
+
+.h4 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+
+.small{
+    color: white;
+}
+
+.tnc {
+    text-align: center;
 }

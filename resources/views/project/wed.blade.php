@@ -9,6 +9,7 @@ Wedding
 
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ URL::asset('project/css/wedding.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/cards_wed.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/modal.css') }}">
@@ -22,10 +23,10 @@ Wedding
     <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
         <!--Controls-->
-        <div class="controls-top">
-            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
-        </div>
+        <!--<div class="controls-top">
+            <a class="btn-prev" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left">Prev</i></a>
+            <a class="btn-next" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right">Next</i></a>
+        </div>-->
         <!--/.Controls-->
 
         <!--Indicators-->
@@ -97,7 +98,7 @@ Wedding
                             <!--second card-->
                             <div class="col-md-4">
 
-                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/1.jpg')">
+                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/3.jpg')">
                                     <img class="card-img d-none" src="img/1.jpg" alt="Package 2">
 
 
@@ -131,7 +132,7 @@ Wedding
 
                             <!--Third card-->
                             <div class="col-md-4">
-                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/1.jpg')">
+                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/33.jpg')">
                                     <img class="card-img d-none" src="img/1.jpg" alt="Package 3">
                                     <div class="card-img-overlay d-flex flex-column">
 
@@ -194,7 +195,7 @@ Wedding
 
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/1.jpg');">
+                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/34.jpg');">
                                     <img class="card-img d-none" src="img/1.jpg" alt="Package 4">
 
                                     <!-- CARD HOVER UP -->
@@ -241,7 +242,7 @@ Wedding
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/1.jpg')">
+                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/35.jpg')">
                                     <img class="card-img d-none" src="img/1.jpg" alt="Package 5">
 
                                     <!-- CARD HOVER UP -->
@@ -289,7 +290,7 @@ Wedding
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/1.jpg')">
+                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/36.jpg')">
                                     <img class="card-img d-none" src="img/1.jpg" alt="Package 6">
 
                                     <!-- CARD HOVER UP -->
@@ -354,7 +355,7 @@ Wedding
 
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/1.jpg');">
+                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/37.jpg');">
                                     <img class="card-img d-none" src="img/1.jpg" alt="Package 1">
 
                                     <!-- CARD HOVER UP -->
@@ -403,7 +404,7 @@ Wedding
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/1.jpg');">
+                                <div class="card text-white card-has-bg click-col" style="background-image:url('img/38.jpg');">
                                     <img class="
                             card-img d-none" src="img/1.jpg" alt="Package 1">
 
@@ -715,6 +716,29 @@ Wedding
         </div>
     </div>
 
+    <h3 class="dwd">Download Our Package List</h3>
+    <div class="container">
+        <a href="img/FMCPackageList.pdf" download='FMC-Package-List' class="download-btn">Download
+            <i class="fa fa-download"></i>
+        </a>
+    </div>
+
+
+   <!--package overview-->
+   <!-- <div style="margin-top:50px; margin-bottom:50px;">
+        <div class="container">
+            <div class="card p-5 d-flex justify-content-center flex-row position-relative">
+
+                <div class="text-cont m-4">
+                    <h1 class="mb-5">Package Overview</h1>
+                    <h4>Package 1</h4>
+                    <p>Ang package na ito ay ang kalimitang kinukuha ng aming mga kliyente sapagkat wala akong maisip hehe</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>-->
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">

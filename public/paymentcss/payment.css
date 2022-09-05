@@ -47,7 +47,7 @@
 }
 
 
-  
+
 
 
 
@@ -61,22 +61,22 @@
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('/fonts/poppins/Poppins-Regular.ttf'); 
+  src: url('/fonts/poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('/fonts/poppins/Poppins-Medium.ttf'); 
+  src: url('/fonts/poppins/Poppins-Medium.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('/fonts/poppins/Poppins-Bold.ttf'); 
+  src: url('/fonts/poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
   font-family: Poppins-SemiBold;
-  src: url('/fonts/poppins/Poppins-SemiBold.ttf'); 
+  src: url('/fonts/poppins/Poppins-SemiBold.ttf');
 }
 
 
@@ -86,8 +86,8 @@
 [ RESTYLE TAG ]*/
 
 * {
-    margin: 0px; 
-    padding: 0px; 
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -119,7 +119,7 @@ a:hover {
 
 /*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
-    margin: 0px;  
+    margin: 0px;
 }
 
 p {
@@ -161,7 +161,7 @@ iframe {
 [ Utility ]*/
 .txt1 {
   font-family: 'Poppins', sans-serif;
- 
+
   font-size: 13px;
   color: #e5e5e5;
   line-height: 1.5;
@@ -177,7 +177,7 @@ iframe {
 }
 
 .container-login100 {
-  width: 100%;  
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -193,7 +193,7 @@ iframe {
   background-position: center;
   background-size: cover;
   position: relative;
-  z-index: 1;  
+  z-index: 1;
 }
 
 .container-login100::before {
@@ -230,7 +230,7 @@ iframe {
 }
 
 .login100-form-logo {
-  font-size: 60px; 
+  font-size: 60px;
   color: #333333;
 
   display: -webkit-box;
@@ -412,6 +412,29 @@ iframe {
     opacity: 1;
   }
 }
+
+.guide{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.desc{
+    font-size: 14px;
+    text-align: left;
+    color: black;
+}
+
+.bgx {
+    width: 80vw;
+    border-radius: 10px;
+    overflow: hidden;
+    /* padding: 55px 55px 37px 55px; */
+
+    background: #95241E;
+
+  }
 
 
 
@@ -6956,9 +6979,9 @@ input[type=radio] {
   .circle-top {
    opacity: 0;
 
-    
+
   }
- 
+
 }
 
 @media (max-width:722px) {
@@ -6971,7 +6994,7 @@ input[type=radio] {
 @media (max-width:703px){
   .circle-top {
     opacity: 0;
-    
+
   }
 }
 
