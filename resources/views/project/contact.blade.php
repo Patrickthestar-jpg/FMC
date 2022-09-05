@@ -21,7 +21,7 @@ Contact
         }
     </style>
 </head>
-    
+
 
 <body style="background-image:url('project/img/red.jpg'); background-repeat: no-repeat; background-size: cover">
 
@@ -48,16 +48,16 @@ Contact
                     Feel Free to Contact Us
                 </span>
 
-            
+
 
                 <div class="dbox w-100 d-flex align-items-start justify-content-center py-3 position-relative">
                     <div class="icon d-flex align-items-center justify-content-center position-absolute " style=" top:45px; left:0; ">
                         <span class="fa fa-lg fa-map-marker" ></span>
-                        
+
                     </div>
                     <div class="text pl-3 ml-3" >
-                        <p class="text1"><span>Address:</span> <span class="text1">{{$contact->address}}</span> </p>
-                        
+                        <p class="text1"><span>Address:</span> <span class="text2">{{$contact->address}}</span> </p>
+
                     </div>
                 </div>
                 <div class="dbox w-100 d-flex align-items-center py-3">
@@ -65,7 +65,7 @@ Contact
                         <span class="fa fa-lg fa-phone"></span>
                     </div>
                     <div class="text pl-3">
-                        <p class="text1"><span>Phone:</span> <span href="#" class="text1"  > {{$contact->name}}<br>{{$contact->contact_no}}</s></p>
+                        <p class="text1"><span>Phone:</span> <span href="#" class="text2"  > {{$contact->name}}<br>{{$contact->contact_no}}</s></p>
                     </div>
                 </div>
                 <div class="dbox w-100 d-flex align-items-center py-3">
@@ -73,8 +73,14 @@ Contact
                         <span class="fa fa-lg fa-paper-plane"></span>
                     </div>
                     <div class="text pl-3">
-                        <p class="text1"><span>Social</span> <span href="#" class="text1"  > {{$contact->socmed}}</span></p>
+                        <p class="text1"><span>Social</span> <span href="#" class="text2"  > {{$contact->socmed}}</span></p>
                     </div>
+                </div>
+
+                <div class="map">
+                    <iframe class="map w-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.9261202263797!2d121.30553301431536!3d14.140440991979453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd5d3b7c32a31d%3A0xef0ed0e396827c8c!2sFMC%20Catering%20Services!5e0!3m2!1sen!2sph!4v1661504217039!5m2!1sen!2sph"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
 <!-- <<<<<<< HEAD
 =======

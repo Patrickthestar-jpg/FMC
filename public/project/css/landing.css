@@ -3,7 +3,7 @@
 .bg-bodylanding{
   background-image: linear-gradient(0deg, #000000,  #2b3d4198), url('/img/3.jpg');
   background-size: cover;
-  
+
 }
 
 
@@ -82,7 +82,7 @@ p{
     margin-left: 50px;
     font-size: 45px;
     line-height: 50px;
-    
+
   }
 
   .content .info h2 span{
@@ -137,7 +137,7 @@ p{
     transition-property: background;
     background-repeat: no-repeat;
     background-position: -120px -120px, 0 0;
-    
+
     background-image: -webkit-linear-gradient(
       top left,
       rgba(238, 234, 1, 0.356) 0%,
@@ -145,13 +145,13 @@ p{
       rgba(253, 253, 253, 0.8) 45%,
       rgba(0, 47, 255, 0) 50%
     );
-   
-    
+
+
     -moz-background-size: 250% 250%, 100% 100%;
          background-size: 250% 250%, 100% 100%;
-    
+
     -webkit-transition: background-position 0s ease;
-       -moz-transition: background-position 0s ease;       
+       -moz-transition: background-position 0s ease;
          -o-transition: background-position 0s ease;
             transition: background-position 0s ease;
   }
@@ -159,7 +159,7 @@ p{
     /* button hover */
   .content .info-btn:hover{
     background-position: 0 0, 0 0;
-  
+
     -webkit-transition-duration: 0.5s;
        -moz-transition-duration: 0.5s;
             transition-duration: 0.5s;
@@ -169,7 +169,7 @@ p{
 
 
   .margin-top{
-   
+
     /* background-color: white; */
     background-image:linear-gradient(#95241ece rgba(216, 8, 77, 0.815)4d), url('https://juancarlo.ph/wp-content/themes/juancarlo/assets-new/img/bannerOut.png');
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ p{
   background: linear-gradient(145deg, #ffffff, #e6e6e6);
   box-shadow: 7px 7px 21px #bdbdbd, -7px -7px 21px #ffffff;
   background: transparent;
-  
+
 }
 
 .container .card:nth-of-type(1)::before {
@@ -236,7 +236,7 @@ p{
 } */
 
 .image1 {
-  background-image: url("/img/5.jpg");
+  background-image: url("/img/39.jpg");
 }
 
 .image2 {

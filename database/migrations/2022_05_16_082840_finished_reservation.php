@@ -21,7 +21,7 @@ class FinishedReservation extends Migration
             $table->string('event_type');
             $table->date('event_date');
             $table->string('mode_payment');
-            $table->string('refference');
+            $table->string('refference')->nullable();
 
             $table->timestamps();
         });

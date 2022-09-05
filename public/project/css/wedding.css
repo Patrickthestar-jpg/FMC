@@ -28,6 +28,44 @@ h5{
   margin-top: 15px;
 }
 
+.dwd{
+  font-size:30px;
+  font-weight: bolder;
+  color: var(--rich-black-fogra-29);
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+.download-btn{
+    height: 3rem;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: DodgerBlue;
+    color: white;
+
+    font-size: 20px;
+    text-decoration: none;
+
+    border-radius:8px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.75rem;
+
+    overflow: hidden;
+}
+
+.download-btn:hover {
+    background-color: RoyalBlue;
+    color: white;
+  }
+
+
 .modal-content{
     background: white;
     color: #000000;
@@ -59,3 +97,4 @@ h5{
 ol li:hover{
   cursor: pointer;
 }
+

@@ -1,9 +1,9 @@
 <head>
     <style>
-     
+
         .nav-item:hover{
-            background: -webkit-linear-gradient(bottom, #ff7b00, #FFE600);
-            transition: 0.5s ease-in-out;
+            background: rgba(255, 255, 255, 0.342);
+            transition: 0.3s ease-in-out;
         }
     </style>
 </head>

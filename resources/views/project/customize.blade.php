@@ -4,6 +4,9 @@ Customize Package
 @endsection
 
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="/css/customize.css">
 </head>
 @section('content')
@@ -44,7 +47,8 @@ Customize Package
                                 </div>
                                 <div class="form-group m-3">
                                     <label for="exampleInputEmail1" class="text-white">Number of Persons: *</label>
-                                    <input type="number" class="form-control" name="persons" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="123" required>
+                                    <input type="number" class="form-control" name="persons" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="50" required>
+                                    <small id="emailHelp" class="small" class="form-text text-muted">Minimun of 50 persons. (50, 75, 100, 125, 150)</small>
                                 </div>
                                 <div class="form-group m-3">
                                     <label for="exampleInputEmail1" class="text-white">Additional Message: *</label>
@@ -83,7 +87,7 @@ Customize Package
                                     <label for="chiken" class="text-white">Chicken</label>
                                     <select class="form-control" id="chiken" name="chiken">
                                         <option selected>Select Item</option>
-                                        <option value="chicken gordon blue">Chicken Gordon Blue</option>
+                                        <option value="chicken gordon blue">Chicken Gordon Bleu</option>
                                         <option value="chicen fillet sweet and sour">Chicen Fillet (Sweet and Sour)</option>
                                         <option value="crispy fried chicken">Crispy Fried Chicken</option>
                                         <option value="spicy chicken">Spicy Chicken</option>
@@ -157,10 +161,28 @@ Customize Package
                                 </div>
                             </div>
 
+                            <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+                        <h5 class="tnc" class="modal-title" id="myModalLabel">FMC Catering Services Terms & Conditions</h5>
+                        </div>
+                        <div class="modal-body">
+                            The customer needs to pay 50% of the package price for reservation fee which deductable to the total of payment. The reservation is valid for 3 days and shall be forfeited thus, not confirm within the period of time. This is base on the terms and condition of FMC Catering Services that will be sign by agreement of the customer and the owner. If the customer wishes to cancel the event the payment is not refundable, non consumable and no transferable. Balance to be paid in cash a day before the event. None payment of the full agreed amount reserves the right for the caterer to cancel all its services.
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
                         </div>
 
                         <div class="card-footer d-flex justify-content-center container-login100-form-btn">
-                            <button type="submit" class=" login100-form-btn">submit</button>
+                            <button type="submit" class=" login100-form-btn">Submit</button>
                         </div>
 
 
@@ -174,6 +196,15 @@ Customize Package
 
         </form>
     </div>
+
+    <!-- Script to use required property -->
+    <script>
+        $('input[type="checkbox"]').on('change', function(e){
+        if(e.target.checked){
+        $('#myModal').modal();
+         }
+        });
+    </script>
 
 </div>
 </div>
