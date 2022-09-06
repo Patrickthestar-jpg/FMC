@@ -414,26 +414,36 @@ iframe {
 }
 
 .guide{
+    text-align: center;
     font-size: 15px;
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
 .desc{
+    align-items: center;
+    text-align: center;
     font-size: 14px;
     text-align: left;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
-.bgx {
+.bgxx {
     width: 80vw;
     border-radius: 10px;
     overflow: hidden;
     /* padding: 55px 55px 37px 55px; */
 
-    background: #95241E;
+    background: #ffffff;
 
+  }
+
+  .p1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
   }
 
 

@@ -125,27 +125,85 @@
 
     <div class="limiter">
         <div class="container-login100 position-relative" style="background-image:url('img/21.jpg');">
-            <div class="bgx">
-            <div style="margin-top:50px; margin-bottom:50px;">
-                <div class="container">
-                    <div class="card p-5 d-flex justify-content-center flex-row position-relative">
+            <div class="bgxx">
+            <div style="margin-top:50px; margin-bottom:50px; margin-left:10%; margin-right:10%;">
 
                         <div class="text-cont m-4">
                             <p class="guide">Check out this guidelines for paying 50% of the payment for your selected package:</p>
-                                <p class="desc">If you choose:
-                                    <br> <br> Package 1: P44,999  (50% is P22,499.5)
-                                    <br> <br> Package 2: P24,999 (50% is P12,499.5)
-                                    <br> <br> Package 3: P420 per plate minimun of 50 plates 420 x 50 = P21,000 (50% is P10,500)
-                                    <br> <br> Package 4: P490 per plate minimun of 50 plates 490 x 50 = P24,500 (50% is P12,250)
-                                    <br> <br> Package 5: P560 per plate minimun of 50 plates 560 x 50 = P28,000 (50% is P14,000)
-                                    <br> <br> Package 6: P15,000 (50% is P7,500)
-                                    <br> <br> Package 7: P25,000 (50% is P12,500)
-                                    <br> <br> Package 8: P25,000 (50% is P12,500)
-                                </p>
+                            <br>
+                            <p class="desc" style="text-align: center">If you choose:</p>
+                            <p class="p1">Package 1</p>
+                            <p class="desc" style="text-align: center">300 Per Plate Minimun of 50 Plates</p>
+                            <p class="desc" style="text-align: center">300 x 50 = 15,000.00 (50% is 7,500.00)</p>
+                            <p class="desc" style="text-align: center">300 x 75 = 22,500.00 (50% is 11,250.00)</p>
+                            <p class="desc" style="text-align: center">300 x 100 = 30,000.00 (50% is 15,000.00)</p>
+                            <p class="desc" style="text-align: center">300 x 125 = 37,500.00 (50% is 18,750.00)</p>
+                            <p class="desc" style="text-align: center">300 x 150 = 45,000.00 (50% is 22,500.00)</p>
+                            <p class="desc" style="text-align: center">300 x 175 = 52,500.00 (50% is 26,500.00)</p>
+                            <p class="desc" style="text-align: center">300 x 200 = 60,000.00 (50% is 30,000.00)</p>
+                            <br>
+                            <p class="p1">Package 2</p>
+                            <p class="desc" style="text-align: center">250 Per Plate Minimun of 50 Plates</p>
+                            <p class="desc" style="text-align: center">250 x 50 = 12,500.00 (50% is 6,250.00)</p>
+                            <p class="desc" style="text-align: center">250 x 75 = 18,750.00 (50% is 9,375.00)</p>
+                            <p class="desc" style="text-align: center">250 x 100 = 25,000.00 (50% is 12,500.00)</p>
+                            <p class="desc" style="text-align: center">250 x 125 = 31,250.00 (50% is 15,625.00)</p>
+                            <p class="desc" style="text-align: center">250 x 150 = 37,500.00 (50% is 18,750.00)</p>
+                            <p class="desc" style="text-align: center">250 x 175 = 43,750.00 (50% is 21,875.00)</p>
+                            <p class="desc" style="text-align: center">250 x 200 = 50,000.00 (50% is 25,000.00)</p>
+                            <br>
+                            <p class="p1">Package 3</p>
+                            <p class="desc" style="text-align: center">450 Per Plate Minimun of 50 Plates</p>
+                            <p class="desc" style="text-align: center">450 x 50 = 22,500.00 (50% is 11,250.00)</p>
+                            <p class="desc" style="text-align: center">450 x 75 = 33,750.00 (50% is 16,875.00)</p>
+                            <p class="desc" style="text-align: center">450 x 100 = 45,000.00 (50% is 22,500.00)</p>
+                            <p class="desc" style="text-align: center">450 x 125 = 67,500.00 (50% is 33,750.00)</p>
+                            <p class="desc" style="text-align: center">450 x 150 = 78,750.00 (50% is 39,375.00)</p>
+                            <p class="desc" style="text-align: center">450 x 175 = 43,750.00 (50% is 21,875.00)</p>
+                            <p class="desc" style="text-align: center">450 x 200 = 90,000.00 (50% is 45,000.00)</p>
+                            <br>
+                            <p class="p1">Package 4</p>
+                            <p class="desc" style="text-align: center">500 Per Plate Minimun of 50 Plates</p>
+                            <p class="desc" style="text-align: center">500 x 50 = 24,999.00 (50% is 12,500.00)</p>
+                            <p class="desc" style="text-align: center">500 x 75 = 37,500.00 (50% is 18,750.00)</p>
+                            <p class="desc" style="text-align: center">500 x 100 = 50,000.00 (50% is 25,000.00)</p>
+                            <p class="desc" style="text-align: center">500 x 125 = 62,500.00 (50% is 31,250.00)</p>
+                            <p class="desc" style="text-align: center">500 x 150 = 75,000.00 (50% is 37,500.00)</p>
+                            <p class="desc" style="text-align: center">500 x 175 = 87,500.00 (50% is 43,750.00)</p>
+                            <p class="desc" style="text-align: center">500 x 200 = 100,000.00 (50% is 50,000.00)</p>
+                            <br>
+                            <p class="p1">Package 5</p>
+                            <p class="desc" style="text-align: center">420 Per Plate Minimun of 50 Plates</p>
+                            <p class="desc" style="text-align: center">420 x 50 = 21,000.00 (50% is 10,500.00)</p>
+                            <p class="desc" style="text-align: center">420 x 75 = 31,500.00 (50% is 15,750.00)</p>
+                            <p class="desc" style="text-align: center">420 x 100 = 42,000.00 (50% is 21,000.00)</p>
+                            <p class="desc" style="text-align: center">420 x 125 = 52,500.00 (50% is 26,250.00)</p>
+                            <p class="desc" style="text-align: center">420 x 150 = 63,000.00 (50% is 31,500.00)</p>
+                            <p class="desc" style="text-align: center">420 x 175 = 73,500.00 (50% is 36,750.00)</p>
+                            <p class="desc" style="text-align: center">420 x 200 = 84,000.00 (50% is 42,000.00)</p>
+                            <br>
+                            <p class="p1">Package 6</p>
+                            <p class="desc" style="text-align: center">490 Per Plate Minimun of 50 Plates</p>
+                            <p class="desc" style="text-align: center">490 x 50 = 24,000.00 (50% is 12,250.00)</p>
+                            <p class="desc" style="text-align: center">490 x 75 = 36,750.00 (50% is 18,375.00)</p>
+                            <p class="desc" style="text-align: center">490 x 100 = 49,000.00 (50% is 24,500.00)</p>
+                            <p class="desc" style="text-align: center">490 x 125 = 61,250.00 (50% is 30,625.00)</p>
+                            <p class="desc" style="text-align: center">490 x 150 = 73,500.00 (50% is 36,750.00)</p>
+                            <p class="desc" style="text-align: center">490 x 175 = 85,750.00 (50% is 42,875.00)</p>
+                            <p class="desc" style="text-align: center">490 x 200 = 98,000.00 (50% is 49,000.00)</p>
+                            <br>
+                            <p class="p1">Package 7</p>
+                            <p class="desc" style="text-align: center">560 Per Plate Minimun of 50 Plates</p>
+                            <p class="desc" style="text-align: center">560 x 50 = 28,000.00 (50% is 14,000.00)</p>
+                            <p class="desc" style="text-align: center">560 x 75 = 42,000.00 (50% is 21,000.00)</p>
+                            <p class="desc" style="text-align: center">560 x 100 = 56,000.00 (50% is 28,000.00)</p>
+                            <p class="desc" style="text-align: center">560 x 125 = 70,000.00 (50% is 35,000.00)</p>
+                            <p class="desc" style="text-align: center">560 x 150 = 84,000.00 (50% is 24,000.00)</p>
+                            <p class="desc" style="text-align: center">560 x 175 = 98,000.00 (50% is 49,000.00)</p>
+                            <p class="desc" style="text-align: center">560 x 200 = 112,000.00 (50% is 56,000.00)</p>
                         </div>
-                    </div>
 
-                </div>
+
             </div>
             </div>
         </div>

@@ -51,8 +51,9 @@ Customize Package
                                     <small id="emailHelp" class="small" class="form-text text-muted">Minimun of 50 persons. (50, 75, 100, 125, 150)</small>
                                 </div>
                                 <div class="form-group m-3">
-                                    <label for="exampleInputEmail1" class="text-white">Additional Message: *</label>
-                                    <input type="text" class="form-control" name="message" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Message Here" required>
+                                    <label for="exampleInputEmail1" class="text-white">Package you want to customize: *</label>
+                                    <input type="text" class="form-control" name="message" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Package 1" required>
+                                    <small id="emailHelp" class="form-text text-white">Pckage 1, Package 2, Package 3, Package 4, Package 5, Package 6, Package 7 </small>
                                 </div>
                             </div>
 

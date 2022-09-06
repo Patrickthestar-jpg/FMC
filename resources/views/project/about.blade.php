@@ -46,13 +46,13 @@ About
             <ul class="cards">
               <li>
                 <a href="" class="card teamcard">
-                  <img src="/img/ferdinand.png" class="card__image" alt="" />
+                  <img src="/img/ferdi.jpg" class="card__image" alt="" />
                   <div class="card__overlay">
                     <div class="card__header">
                       <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                         <path />
                       </svg>
-                      <img class="card__thumb" src="/img/ferdinand.png" alt="" />
+                      <img class="card__thumb" src="/img/ferdi.jpg" alt="" />
                       <div class="card__header-text">
                         <h3 class="card__title ">Ferdinand Carandang</h3>
                       </div>
