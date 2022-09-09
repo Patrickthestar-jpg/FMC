@@ -16,11 +16,11 @@ class EventController extends Controller
             return view('layout.calendar.fullcalender', compact('events'));
 
          }
-       
+
         else{
             return view('auth.login');
-        } 
-    
+        }
+
     }
 
     /**
@@ -41,14 +41,21 @@ class EventController extends Controller
      */
     public function store(Request $request)
     {
-        Event::create([
-            'title' => $request->input('title'),
-            'start' => $request->input('start'),
-            'end' => $request->input('end'),
-            'time' => $request->input('time'),
-            'color' => $request->input('color'),
-        ]);
-        return back();
+        try {
+            Event::create([
+                'title' => $request->input('title'),
+                'color' => $request->input('color'),
+                'start' => $request->input('start'),
+                'end' => $request->input('end'),
+                'time' => $request->input('time'),
+
+            ]);
+            return back();
+        } catch (\Throwable $th) {
+            dd($th);
+        }
+
+
     }
 
     /**
@@ -88,7 +95,7 @@ class EventController extends Controller
         $event->end = $request->input('end');
         $event->time = $request->input('time');
         $event->color = $request->input('color');
-        $event->save();
+        $event->update();
         return back();
     }
 
@@ -98,8 +105,10 @@ class EventController extends Controller
      * @param  \App\Models\Events  $events
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Event $events)
+    public function destroy($id)
     {
-        //
+        $event = Event::find($id);
+        $event->delete();
+        return back();
     }
 }

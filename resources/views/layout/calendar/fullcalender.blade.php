@@ -36,10 +36,20 @@
                                 <td class="text-center">{{ date('m-d-Y', strtotime($event->start)) }} -
                                     {{ date('m-d-Y', strtotime($event->end)) }}</td>
                                 <td class="text-center">{{ ($event->time != null) ? date('h:i:s a',strtotime($event->time)): "" }}</td>
-                                <td class="text-center"><a class="btn btn-primary" data-toggle="modal"
-                                        data-target="#edit{{ $event->id }}">Edit</a></td>
+                                <td class="text-center">
+                                    <div class="d-flex flex-column">
+                                        <a class="btn btn-info" data-toggle="modal"
+                                        data-target="#edit{{ $event->id }}">Edit</a>
+                                        <a class="btn btn-danger" data-toggle="modal"
+                                        data-target="#delete{{ $event->id }}">Delete</a>
+                                    </div>
+                                </td>
+
                                 @include(
                                     'layout.calendar._edit'
+                                )
+                                @include(
+                                    'layout.calendar._delete'
                                 )
                             </tr>
                         @endforeach

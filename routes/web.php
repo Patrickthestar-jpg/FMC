@@ -105,7 +105,7 @@ Route::get('paymentform', function(Request $request){
     }
 })->name('paymentform');
 Route::get('pwelcome','PaymentFormController@paymentform')->name('pwelcome');
-Route::get('pform','PaymentFormController@pform')->name('layout.paymentform.pform');
+//Route::get('pform','PaymentFormController@pform')->name('layout.paymentform.pform');
 Route::get('thankyou','PaymentFormController@thank')->name('layout.paymentform.thank');
 Route::post('payment/store','PaymentFormController@store')->name('layout.paymentform.store');
 
@@ -145,6 +145,7 @@ Route::get('/send/email/{id}', 'sendMail@mail');
 Route::get('/events', [EventController::class, 'index'])->name('events.index');
 Route::post('/events/add', [EventController::class, 'store'])->name('events.store');
 Route::put('/events/edit/{id}', [EventController::class, 'update'])->name('events.update');
+Route::delete('/events/delete/{id}', [EventController::class, 'destroy'])->name('events.delete');
 
 //botman
 Route::match(['get', 'post'], '/botman','ContactController@handle');
