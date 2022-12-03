@@ -38,9 +38,9 @@
                                 <td class="text-center">{{ ($event->time != null) ? date('h:i:s a',strtotime($event->time)): "" }}</td>
                                 <td class="text-center">
                                     <div class="d-flex flex-column">
-                                        <a class="btn btn-info" data-toggle="modal"
+                                        <a class="btn btn-info btn-sm" data-toggle="modal" style="color: black"
                                         data-target="#edit{{ $event->id }}">Edit</a>
-                                        <a class="btn btn-danger" data-toggle="modal"
+                                        <a class="btn btn-danger btn-sm" data-toggle="modal" style="color: black"
                                         data-target="#delete{{ $event->id }}">Delete</a>
                                     </div>
                                 </td>

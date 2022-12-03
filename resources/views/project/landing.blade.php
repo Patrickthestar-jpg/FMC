@@ -41,8 +41,8 @@
             <div class="info col-md-6 ">
                 <h2 class="text-white" style="font-size: 2em;"> Welcome to </h2>
                 <h2 class="mt-0 "><span><u style="letter-spacing: 0.1em; color:white;">FMC Catering Services</u></span></h2>
-                <p class="my-5">Our only limit is your imagination. Reserve Now!</p>
-                <a href="/agreement" class="info-btn btn button two"><span>More Info</span></a>
+                <p class="my-5">We are honored to work with our clients by providing quality service.</p>
+                <a href="/agreement" class="info-btn btn button two"><span>T&C</span></a>
             </div>
 
             <!-- IMAGES -->

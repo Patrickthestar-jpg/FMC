@@ -16,7 +16,6 @@
         </h3>
         <div class="stroke" class="mr-4">
             <a href="/contacts" >Contact</a>
-            <a href="/about">About</a>
             <div class="dropdown1">
                 <button class="dropbtn">Services
                     <i class="fa fa-caret-down"></i>
@@ -30,6 +29,7 @@
                 </div>
             </div>
             <a href="/gallery">Gallery</a>
+            <a href="/about">About</a>
             <a href="/">Home</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
